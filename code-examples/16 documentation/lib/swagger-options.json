@@ -1,0 +1,33 @@
+{
+    "basePath": "/v1/",
+    "pathPrefixSize": 2,
+    "info": {
+        "title": "Test API Documentation",
+        "description": "This is a sample example of API documentation.",
+        "version": "2.4.3",
+        "termsOfService": "https://github.com/glennjones/hapi-swagger/",
+        "contact": {
+            "email": "glennjonesnet@gmail.com"
+        },
+        "license": {
+            "name": "MIT",
+            "url": "https://raw.githubusercontent.com/glennjones/hapi-swagger/master/license.txt"
+        }
+    },
+    "tags": [{
+        "name": "sum",
+        "description": "working with maths",
+        "externalDocs": {
+            "description": "Find out more",
+            "url": "http://example.org"
+        }
+    }, {
+        "name": "store",
+        "description": "storing data",
+        "externalDocs": {
+            "description": "Find out more",
+            "url": "http://example.org"
+        }
+    }],
+    "jsonEditor": true
+}
