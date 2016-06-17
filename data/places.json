@@ -1,0 +1,2482 @@
+[
+    {
+        "name": "33 Coffee",
+        "longitude": "-0.1388552785",
+        "latitude": "50.8282799064",
+        "geofence": "8.13",
+        "tags": [
+            "coffee"
+        ],
+        "updated": "2015-03-13T13:22:03.904Z",
+        "street-address": "33 Trafalgar Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4ED"
+    },
+    {
+        "name": "68 Middle Street",
+        "longitude": "-0.1429241896",
+        "latitude": "50.8210687979",
+        "geofence": "18",
+        "tags": [
+            "venue"
+        ],
+        "updated": "2015-03-13T13:22:47.631Z",
+        "street-address": "68 Middle Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AL"
+    },
+    {
+        "name": "Alfresco",
+        "longitude": "-0.1526069641",
+        "latitude": "50.821636442",
+        "geofence": "12.27",
+        "tags": [
+            "restaurant"
+        ],
+        "updated": "2015-04-02T10:13:50.461Z",
+        "street-address": "26 King's Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 2LN"
+    },
+    {
+        "name": "Anchor Inn",
+        "longitude": "0.0507956743",
+        "latitude": "50.9253619631",
+        "geofence": "30",
+        "tags": [
+            "pub",
+            "boating"
+        ],
+        "updated": "2015-03-13T13:32:59.661Z",
+        "street-address": "Anchor Lane",
+        "locality": "Barcombe",
+        "country-name": "United Kingdom",
+        "postal-code": "BN8 5EA"
+    },
+    {
+        "name": "Apple Store",
+        "longitude": "-0.146074",
+        "latitude": "50.822438",
+        "geofence": "10",
+        "tags": [
+            "shop apple"
+        ],
+        "updated": "2015-04-02T10:16:05.190Z",
+        "street-address": "Churchill Square",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 2TE"
+    },
+    {
+        "name": "Arkwrights",
+        "longitude": "-0.1403331757",
+        "latitude": "50.8374582259",
+        "geofence": "10",
+        "tags": [
+            "shop",
+            "delicatessen",
+            "sandwiches"
+        ],
+        "updated": "2015-03-13T13:35:35.629Z",
+        "street-address": "86 Beaconsfield Rd",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 6DD"
+    },
+    {
+        "name": "B&Q",
+        "longitude": "-0.1221048832",
+        "latitude": "50.8416859475",
+        "geofence": "24.24",
+        "tags": [
+            "shop"
+        ],
+        "updated": "2015-04-02T10:18:00.207Z",
+        "street-address": "Lewes Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 3QA"
+    },
+    {
+        "name": "BAR200",
+        "longitude": "106.6095820069",
+        "latitude": "8.6865395447",
+        "geofence": "11.57",
+        "tags": [
+            "bar restaurant driving snorkeling"
+        ],
+        "updated": "2015-04-02T10:22:31.401Z",
+        "street-address": "Pham Van Dong Street",
+        "locality": "Con Dao",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Balti Express",
+        "longitude": "-0.1403461",
+        "latitude": "50.8369293",
+        "geofence": "10",
+        "updated": "2015-10-04T17:19:53.751Z",
+        "street-address": "72 Beaconsfield Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "Bn"
+    },
+    {
+        "name": "Bangkok Express",
+        "longitude": "-0.1378987571",
+        "latitude": "50.8329318273",
+        "geofence": "10",
+        "tags": [
+            "restaurant"
+        ],
+        "updated": "2015-03-24T14:06:49.581Z",
+        "street-address": "81 London Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4JF"
+    },
+    {
+        "name": "Barbecue Garden",
+        "longitude": "106.697869",
+        "latitude": "10.777256",
+        "geofence": "10",
+        "tags": [
+            "restaurant vietnamese barbecue"
+        ],
+        "updated": "2015-04-02T10:25:38.623Z",
+        "street-address": "Nguyễn Du",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Bath Arms",
+        "longitude": "-0.1410332322",
+        "latitude": "50.8221210521",
+        "geofence": "6.23",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-02T10:28:24.688Z",
+        "street-address": "4 Meeting House Lane",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1HB"
+    },
+    {
+        "name": "Be At One",
+        "longitude": "-0.1381713152",
+        "latitude": "50.8213670238",
+        "geofence": "10",
+        "tags": [
+            "bar cocktails"
+        ],
+        "updated": "2015-04-02T10:32:41.281Z",
+        "street-address": "5 Castle Square",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1EG"
+    },
+    {
+        "name": "Ben Thanh Market (Chợ Bến Thành)",
+        "longitude": "106.698038578",
+        "latitude": "10.7725556735",
+        "geofence": "54.59",
+        "tags": [
+            "market"
+        ],
+        "updated": "2015-04-02T14:01:09.562Z",
+        "street-address": "Phan Chu Trinh",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Bill's Produce Store",
+        "longitude": "0.0166484714",
+        "latitude": "50.8740485193",
+        "geofence": "10",
+        "tags": [
+            "restaurant shop"
+        ],
+        "updated": "2015-04-02T10:36:47.586Z",
+        "street-address": "56 Cliffe High Street",
+        "locality": "Lewes",
+        "country-name": "United Kingdom",
+        "postal-code": "BN7 2AN"
+    },
+    {
+        "name": "Bill's Restaurant",
+        "longitude": "-0.137527585",
+        "latitude": "50.8255453737",
+        "geofence": "7.37",
+        "tags": [
+            "restaurant"
+        ],
+        "updated": "2015-04-02T10:41:03.318Z",
+        "street-address": "100 North Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1YE"
+    },
+    {
+        "name": "Billard Thien Than",
+        "longitude": "106.6915100813",
+        "latitude": "10.7692277256",
+        "geofence": "10",
+        "tags": [
+            "pool billards"
+        ],
+        "updated": "2015-04-02T10:43:22.012Z",
+        "street-address": "Phạm Ngũ Lão",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Bitexco Financial Tower",
+        "longitude": "106.7044597864",
+        "latitude": "10.7718732232",
+        "geofence": "32.86",
+        "updated": "2015-04-02T10:46:11.743Z",
+        "street-address": "36 Hồ Tùng Mậu",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Brighthelm",
+        "longitude": "-0.1420578361",
+        "latitude": "50.8259570887",
+        "geofence": "17.79",
+        "tags": [
+            "veune",
+            "church",
+            "cafe",
+            "school",
+            "community garden",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:07:54.726Z",
+        "street-address": "North Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1YD"
+    },
+    {
+        "name": "Brighton Beer Dispensary",
+        "longitude": "-0.1490163",
+        "latitude": "50.8247006",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-02T09:50:30.191Z",
+        "street-address": "38 Dean Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 3EG"
+    },
+    {
+        "name": "Brighton Dental Care",
+        "longitude": "-0.1378118992",
+        "latitude": "50.8273684133",
+        "geofence": "7",
+        "tags": [
+            "dentist"
+        ],
+        "updated": "2015-03-13T15:25:49.208Z",
+        "street-address": "47 Sydney Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4EP"
+    },
+    {
+        "name": "Brighton Garden Centre",
+        "longitude": "-0.1107537746",
+        "latitude": "50.8316309307",
+        "geofence": "26.65",
+        "tags": [
+            "shop garden-centre"
+        ],
+        "updated": "2015-04-02T10:50:13.909Z",
+        "street-address": "Warren Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 9XX"
+    },
+    {
+        "name": "Brighton Museum",
+        "longitude": "-0.1378923655",
+        "latitude": "50.8234579399",
+        "geofence": "21.13",
+        "tags": [
+            "museum",
+            "art",
+            "gallary",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:23:15.849Z",
+        "street-address": "Royal Pavilion Gardens",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1EE"
+    },
+    {
+        "name": "Brighton Recycling Centre",
+        "longitude": "-0.0999498367",
+        "latitude": "50.8284933762",
+        "geofence": "48.28",
+        "tags": [
+            "recycling"
+        ],
+        "updated": "2015-04-02T10:53:10.861Z",
+        "street-address": "Wilson Avenue",
+        "locality": "Brighton",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Brighton Train Station (BTN)",
+        "longitude": "-0.1408993043",
+        "latitude": "50.8291901215",
+        "geofence": "62",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-03-13T13:37:14.296Z",
+        "street-address": "Queens Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Brighton Wheel",
+        "longitude": "-0.1344805956",
+        "latitude": "50.8190523348",
+        "geofence": "13.05",
+        "updated": "2015-04-02T10:58:51.253Z",
+        "street-address": "Madeira Drive",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 1QE"
+    },
+    {
+        "name": "British Grow Fund",
+        "longitude": "-0.1357479",
+        "latitude": "51.4989574",
+        "geofence": "10",
+        "updated": "2015-03-13T13:39:24.683Z",
+        "street-address": "21 Palmer Street",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "SW1H 0AD"
+    },
+    {
+        "name": "Bute Park",
+        "longitude": "-3.1877853",
+        "latitude": "51.4844173",
+        "geofence": "10",
+        "tags": [
+            "park"
+        ],
+        "updated": "2015-07-19T14:20:55.870Z",
+        "locality": "Cardiff",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Cafe Relax",
+        "longitude": "6.7885992",
+        "latitude": "51.2233647",
+        "geofence": "10",
+        "tags": [
+            "cafe",
+            "japaness"
+        ],
+        "updated": "2015-05-12T11:37:08.047Z",
+        "street-address": "38 Immermannstraße",
+        "locality": "Düsseldorf",
+        "country-name": "Germany",
+        "postal-code": "40210"
+    },
+    {
+        "name": "Capitol Theater",
+        "longitude": "6.8005907536",
+        "latitude": "51.2239198157",
+        "geofence": "39.49",
+        "tags": [
+            "theater",
+            "venue"
+        ],
+        "updated": "2015-05-08T18:36:18.950Z",
+        "street-address": "30 Erkrather Straße",
+        "locality": "Düsseldorf",
+        "country-name": "Germany",
+        "postal-code": "40233"
+    },
+    {
+        "name": "Casa Brindisa",
+        "longitude": "-0.1736971736",
+        "latitude": "51.4948025558",
+        "geofence": "10",
+        "tags": [
+            "restaurant",
+            "tapas"
+        ],
+        "updated": "2015-03-13T13:40:55.347Z",
+        "street-address": "7-9 Exhibition Road",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "SW2 2HE"
+    },
+    {
+        "name": "Caxton Arms",
+        "longitude": "-0.1425996422767639",
+        "latitude": "50.82691435436995",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-02T13:57:49.601Z",
+        "street-address": "36 North Gardens",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 3LB"
+    },
+    {
+        "name": "Clapham Junction Railway Station (CLJ)",
+        "longitude": "-0.1709961891",
+        "latitude": "51.4642614615",
+        "geofence": "92.49",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-04-02T14:10:29.364Z",
+        "street-address": "Prested Road",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "SW11 2QP"
+    },
+    {
+        "name": "Clearleft",
+        "longitude": "-0.1430904865264893",
+        "latitude": "50.82099085224942",
+        "geofence": "10",
+        "tags": [
+            "office venue"
+        ],
+        "updated": "2015-04-02T14:07:27.470Z",
+        "street-address": "68 Middle Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AL"
+    },
+    {
+        "name": "Coalition",
+        "longitude": "-0.142929554",
+        "latitude": "50.8201707201",
+        "geofence": "10",
+        "tags": [
+            "club",
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:31:27.340Z",
+        "street-address": "171-181 Kings Road Arches",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1NB"
+    },
+    {
+        "name": "CodeNode",
+        "longitude": "-0.0861793756",
+        "latitude": "51.5184840009",
+        "geofence": "22.49",
+        "tags": [
+            "venue",
+            "skillmatters"
+        ],
+        "updated": "2015-10-28T15:44:17.899Z",
+        "street-address": "10 South Park",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "EC2M 7EB"
+    },
+    {
+        "name": "Con Dao Airport (VCS)",
+        "longitude": "106.6286015511",
+        "latitude": "8.7316776312",
+        "geofence": "100",
+        "tags": [
+            "airport"
+        ],
+        "updated": "2015-04-03T17:45:35.323Z",
+        "street-address": "Suoi Ot Bridge",
+        "locality": "Con Dao",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Con Dao Market (Chợ Côn Đảo)",
+        "longitude": "106.6087451577",
+        "latitude": "8.6861418281",
+        "geofence": "11.06",
+        "tags": [
+            "market"
+        ],
+        "updated": "2015-04-02T14:04:49.799Z",
+        "street-address": "Phạm Văn Đồng",
+        "locality": "Con Dao",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Con Son Cafe (Côn Sơn Cafe)",
+        "longitude": "106.6090026498",
+        "latitude": "8.6820824435",
+        "geofence": "11.53",
+        "tags": [
+            "cafe bar"
+        ],
+        "updated": "2015-04-02T14:20:10.422Z",
+        "street-address": "Tôn Đức Thắng",
+        "locality": "Con Doa",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Concorde 2",
+        "longitude": "-0.1225394011",
+        "latitude": "50.8172933656",
+        "geofence": "16.6",
+        "tags": [
+            "venue",
+            "club",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:11:11.843Z",
+        "street-address": "Madeira Drive",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 1EN"
+    },
+    {
+        "name": "Corn Exchange",
+        "longitude": "-0.1387399435",
+        "latitude": "50.8237527617",
+        "geofence": "10",
+        "tags": [
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:04:13.300Z",
+        "street-address": "Church Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UD"
+    },
+    {
+        "name": "Crown and Cushion",
+        "longitude": "-0.1140394807",
+        "latitude": "51.4994129298",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-02T14:17:57.603Z",
+        "street-address": "133-135, Westminster Bridge Road",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "SE1 7HR"
+    },
+    {
+        "name": "Côte Brasserie",
+        "longitude": "-0.1384046674",
+        "latitude": "50.8240814689",
+        "geofence": "10",
+        "tags": [
+            "restaurant french brasserie"
+        ],
+        "updated": "2015-04-02T14:23:44.061Z",
+        "street-address": "115-116 Church Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UD"
+    },
+    {
+        "name": "Duke of York's",
+        "longitude": "-0.1385738585",
+        "latitude": "50.833932762",
+        "geofence": "14",
+        "tags": [
+            "cinema"
+        ],
+        "updated": "2015-03-13T13:50:53.140Z",
+        "street-address": "Preston Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4NA"
+    },
+    {
+        "name": "Dusseldorf Airport (DUS)",
+        "longitude": "6.7664964869",
+        "latitude": "51.2782317289",
+        "geofence": "350.21",
+        "tags": [
+            "airport"
+        ],
+        "updated": "2015-05-08T17:20:21.236Z",
+        "street-address": "Terminal Ring",
+        "locality": "Düsseldorf",
+        "country-name": "Germany"
+    },
+    {
+        "name": "E-Kagen",
+        "longitude": "-0.1378548145",
+        "latitude": "50.8279351337",
+        "geofence": "10",
+        "tags": [
+            "restaurant",
+            "japanese"
+        ],
+        "updated": "2015-03-13T14:00:58.932Z",
+        "street-address": "22-23 Sydney St",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4EN"
+    },
+    {
+        "name": "Earth and Stars",
+        "longitude": "-0.1421812177",
+        "latitude": "50.824828676",
+        "geofence": "8.68",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-02T14:26:23.306Z",
+        "street-address": "46 Windsor Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1RJ"
+    },
+    {
+        "name": "Falmer Railway Station (FMR)",
+        "longitude": "-0.0872334838",
+        "latitude": "50.8619706321",
+        "geofence": "19.69",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-03-13T14:10:34.640Z",
+        "street-address": "Station Approach",
+        "locality": "Falmer",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 9PU"
+    },
+    {
+        "name": "Farm",
+        "longitude": "-0.13764292",
+        "latitude": "50.8255114876",
+        "geofence": "4.91",
+        "tags": [
+            "cafe sandwiches"
+        ],
+        "updated": "2015-04-02T14:29:43.288Z",
+        "street-address": "99 North Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1YE"
+    },
+    {
+        "name": "Firefly",
+        "longitude": "-0.2263730764",
+        "latitude": "51.4932244685",
+        "geofence": "30",
+        "tags": [
+            "office"
+        ],
+        "updated": "2015-03-13T14:12:11.549Z",
+        "street-address": "1 Lyric Square",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "W6 0NB"
+    },
+    {
+        "name": "Fishbowl",
+        "longitude": "-0.1390966773",
+        "latitude": "50.8200792168",
+        "geofence": "7.82",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-02T14:31:45.108Z",
+        "street-address": "74 East Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1HQ"
+    },
+    {
+        "name": "Gatwick Airport (LGW)",
+        "longitude": "-0.1780128479",
+        "latitude": "51.1549086059",
+        "geofence": "1120",
+        "tags": [
+            "airport"
+        ],
+        "updated": "2015-03-13T14:29:37.728Z",
+        "street-address": "Station Approach",
+        "locality": "Crawley",
+        "country-name": "United Kingdom",
+        "postal-code": "RH6 0RD"
+    },
+    {
+        "name": "Gatwick Airport Railway Station (GTW)",
+        "longitude": "-0.1609325409",
+        "latitude": "51.1567322123",
+        "geofence": "42.55",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-04-02T14:40:50.986Z",
+        "street-address": "Gatwick Airport",
+        "locality": "Crawley",
+        "country-name": "United Kingdom",
+        "postal-code": "RH6 0RD"
+    },
+    {
+        "name": "Ginger Dog",
+        "longitude": "-0.1221290231",
+        "latitude": "50.8195810294",
+        "geofence": "8.87",
+        "tags": [
+            "restaurant"
+        ],
+        "updated": "2015-04-02T14:42:44.979Z",
+        "street-address": "12 College Place",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 1HN"
+    },
+    {
+        "name": "Glynde Railway Station (GLY)",
+        "longitude": "0.0703",
+        "latitude": "50.8591",
+        "geofence": "10",
+        "tags": [
+            "train station"
+        ],
+        "updated": "2015-04-02T09:55:22.173Z",
+        "street-address": "Station Road",
+        "locality": "Glynde",
+        "country-name": "United Kingdom",
+        "postal-code": "BN8 6RU"
+    },
+    {
+        "name": "Go Free Range",
+        "longitude": "-0.082066",
+        "latitude": "51.521995",
+        "geofence": "10",
+        "tags": [
+            "office"
+        ],
+        "updated": "2015-04-02T14:45:33.068Z",
+        "street-address": "32-38 Scrutton Street",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "EC2A 4RQ"
+    },
+    {
+        "name": "Good Companions",
+        "longitude": "-0.1482537389",
+        "latitude": "50.8321052726",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-02T14:47:47.814Z",
+        "street-address": "132 Dyke Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 3TE"
+    },
+    {
+        "name": "Green Door Store",
+        "longitude": "-0.1402795315",
+        "latitude": "50.8295539339",
+        "geofence": "13.96",
+        "tags": [
+            "veune",
+            "club",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T11:54:55.227Z",
+        "street-address": "Trafalgar Arches",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4FQ"
+    },
+    {
+        "name": "HSS Hire",
+        "longitude": "-0.1754567027",
+        "latitude": "50.8371905929",
+        "geofence": "10",
+        "tags": [
+            "shop"
+        ],
+        "updated": "2015-04-02T14:49:25.635Z",
+        "street-address": "Newtown Road",
+        "locality": "Hove",
+        "country-name": "United Kingdom",
+        "postal-code": "BN3 7BA"
+    },
+    {
+        "name": "Harrogate Railway Station (HGT)",
+        "longitude": "-1.5373295546",
+        "latitude": "53.9931510324",
+        "geofence": "16.01",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-04-02T14:52:43.789Z",
+        "street-address": "Station Parade",
+        "locality": "Harrogate",
+        "country-name": "United Kingdom",
+        "postal-code": "HG1 1TE"
+    },
+    {
+        "name": "Heathfield Community College",
+        "longitude": "0.2780377865",
+        "latitude": "50.9671098435",
+        "geofence": "63.93",
+        "tags": [
+            "college"
+        ],
+        "updated": "2015-04-02T14:54:52.064Z",
+        "street-address": "Cade Street",
+        "locality": "Heathfield",
+        "country-name": "United Kingdom",
+        "postal-code": "TN21 8RJ"
+    },
+    {
+        "name": "Ho Chi Minh City Museum of Fine Arts (Bảo Tàng Mỹ Thuật)",
+        "longitude": "106.6991195083",
+        "latitude": "10.7698706575",
+        "geofence": "24.87",
+        "tags": [
+            "art gallery"
+        ],
+        "updated": "2015-04-02T13:51:25.832Z",
+        "street-address": "Phó Ðức Chính",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Home",
+        "longitude": "-0.1411475",
+        "latitude": "50.839651",
+        "geofence": "50",
+        "updated": "2015-03-25T17:00:07.312Z",
+        "street-address": "20 Beaconsfield Villas",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 6HD"
+    },
+    {
+        "name": "Home",
+        "longitude": "-1.5273879",
+        "latitude": "54.0095017",
+        "geofence": "11.79",
+        "updated": "2015-03-13T14:15:14.732Z",
+        "street-address": "12 Kirkham Place",
+        "locality": "Harrogate",
+        "country-name": "United Kingdom",
+        "postal-code": "HG1 4EN"
+    },
+    {
+        "name": "Hope and Ruin",
+        "longitude": "-0.1428893209",
+        "latitude": "50.8253098644",
+        "geofence": "10",
+        "tags": [
+            "pub",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T11:57:48.237Z",
+        "street-address": "11-12 Queen's Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 3WA"
+    },
+    {
+        "name": "Horsforth Railway Station (HRS)",
+        "longitude": "-1.6302216625",
+        "latitude": "53.8477207111",
+        "geofence": "30",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-03-13T14:46:01.141Z",
+        "street-address": "Station Road",
+        "locality": "Leeds",
+        "country-name": "United Kingdom",
+        "postal-code": "LS18 5NL"
+    },
+    {
+        "name": "Hotel NH Düsseldorf City",
+        "longitude": "6.8030583858",
+        "latitude": "51.2172740094",
+        "geofence": "35.91",
+        "tags": [
+            "hotel"
+        ],
+        "updated": "2015-05-09T05:36:19.813Z",
+        "street-address": "188 Kölner Straße",
+        "locality": "Düsseldorf",
+        "country-name": "Germany",
+        "postal-code": "40227"
+    },
+    {
+        "name": "Hove Crown Court",
+        "longitude": "-0.1615521312",
+        "latitude": "50.8285645326",
+        "geofence": "13.58",
+        "tags": [
+            "law-court"
+        ],
+        "updated": "2015-04-02T15:01:50.017Z",
+        "street-address": "The Court House, Lansdowne Road",
+        "locality": "Hove",
+        "country-name": "United Kingdom",
+        "postal-code": "BN3 3BN"
+    },
+    {
+        "name": "Hove Rugby Club",
+        "longitude": "-0.16720891",
+        "latitude": "50.8392909632",
+        "geofence": "16.66",
+        "tags": [
+            "venue bar"
+        ],
+        "updated": "2015-04-03T15:18:28.005Z",
+        "street-address": "Hove Recreation Ground, Shirley Drive",
+        "locality": "Hove",
+        "country-name": "United Kingdom",
+        "postal-code": "BN3 6NQ"
+    },
+    {
+        "name": "Hoxton Arches",
+        "longitude": "-0.0760942698",
+        "latitude": "51.5305245116",
+        "geofence": "10",
+        "tags": [
+            "venue gallery"
+        ],
+        "updated": "2015-04-03T15:20:21.341Z",
+        "street-address": "402 Cremer Street",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "E2 8HD"
+    },
+    {
+        "name": "Jubilee Gardens",
+        "longitude": "-0.1383821",
+        "latitude": "50.8249805",
+        "geofence": "10",
+        "tags": [
+            "park",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:15:21.134Z",
+        "street-address": "Jubilee Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1GE"
+    },
+    {
+        "name": "Khanhcasa Garden Tea House",
+        "longitude": "106.7046529055",
+        "latitude": "10.7747558404",
+        "geofence": "10",
+        "tags": [
+            "tea-house"
+        ],
+        "updated": "2015-04-03T15:23:03.116Z",
+        "street-address": "Ðồng Khởi",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Kings Cross Railway Station (KGX)",
+        "longitude": "-0.1237893105",
+        "latitude": "51.5313671447",
+        "geofence": "81.65",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-03-13T14:49:57.885Z",
+        "street-address": "Euston Road",
+        "locality": "London",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Komedia",
+        "longitude": "-0.1393729448",
+        "latitude": "50.824930336",
+        "geofence": "14.11",
+        "tags": [
+            "veune threatre comedy cabaret tge2015"
+        ],
+        "updated": "2015-05-03T11:52:23.402Z",
+        "street-address": "44-47 Gardner Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UN"
+    },
+    {
+        "name": "Komedia Studio Bar",
+        "longitude": "-0.1393729448",
+        "latitude": "50.824930336",
+        "geofence": "14.11",
+        "tags": [
+            "veune",
+            "threatre",
+            "comedy",
+            "cabaret",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T11:51:25.672Z",
+        "street-address": "44-47 Gardner Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UN"
+    },
+    {
+        "name": "Lab 4 The Recently Possible",
+        "longitude": "-0.1358136535",
+        "latitude": "50.827038035",
+        "geofence": "7.55",
+        "tags": [
+            "venue"
+        ],
+        "updated": "2015-04-03T15:24:53.188Z",
+        "street-address": "45 Gloucester Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4EW"
+    },
+    {
+        "name": "Leeds Railway Station (LDS)",
+        "longitude": "-1.5482568741",
+        "latitude": "53.7946815004",
+        "geofence": "85.28",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-04-03T15:27:17.738Z",
+        "street-address": "New Station Street",
+        "locality": "Leeds",
+        "country-name": "United Kingdom",
+        "postal-code": "LS1 4DY"
+    },
+    {
+        "name": "Lewes Crown Court",
+        "longitude": "0.0097686052",
+        "latitude": "50.8731108388",
+        "geofence": "19.6",
+        "tags": [
+            "law-court"
+        ],
+        "updated": "2015-04-03T15:29:28.263Z",
+        "street-address": "High Street",
+        "locality": "Lewes",
+        "country-name": "United Kingdom",
+        "postal-code": "BN7 1YB"
+    },
+    {
+        "name": "Lewes Railway Station (LWS)",
+        "longitude": "0.0118245775",
+        "latitude": "50.8704930164",
+        "geofence": "47",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-03-13T14:55:32.493Z",
+        "street-address": "Station Road",
+        "locality": "Lewes",
+        "country-name": "United Kingdom",
+        "postal-code": "BN7 2UP"
+    },
+    {
+        "name": "Liberty Central",
+        "longitude": "106.6987386185",
+        "latitude": "10.7735111988",
+        "geofence": "27.49",
+        "tags": [
+            "hotel"
+        ],
+        "updated": "2015-03-13T14:58:38.431Z",
+        "street-address": "179 Lê Thánh Tôn",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Lighthouse",
+        "longitude": "-0.1382437348",
+        "latitude": "50.8259841974",
+        "geofence": "14",
+        "tags": [
+            "gallery",
+            "venue"
+        ],
+        "updated": "2015-03-13T15:00:20.833Z",
+        "street-address": "28 Kensington Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4AJ"
+    },
+    {
+        "name": "Llwynhelig House",
+        "longitude": "-3.4556902",
+        "latitude": "51.4651299",
+        "geofence": "10",
+        "updated": "2015-07-18T10:08:24.658Z",
+        "street-address": "Cowbridge",
+        "country-name": "United Kingdom",
+        "postal-code": "CF71 7FF"
+    },
+    {
+        "name": "London Road Railway Station (LRB)",
+        "longitude": "-0.1360905218",
+        "latitude": "50.8368268399",
+        "geofence": "41.11",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-03-13T15:03:04.669Z",
+        "street-address": "Shaftesbury Place",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4QS"
+    },
+    {
+        "name": "Madgex",
+        "longitude": "-0.136320591",
+        "latitude": "50.825525042",
+        "geofence": "34",
+        "tags": [
+            "office"
+        ],
+        "updated": "2015-03-13T15:19:38.335Z",
+        "street-address": "1 Gloucester Place",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4AA"
+    },
+    {
+        "name": "Moksha Café",
+        "longitude": "-0.1356768608",
+        "latitude": "50.828076601",
+        "geofence": "10",
+        "tags": [
+            "cafe coffee-house"
+        ],
+        "updated": "2015-04-03T15:31:54.485Z",
+        "street-address": "4-5 York Place",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4GU"
+    },
+    {
+        "name": "Odeon",
+        "longitude": "-0.1451288098",
+        "latitude": "50.821116621",
+        "geofence": "30",
+        "tags": [
+            "cinema"
+        ],
+        "updated": "2015-03-13T15:28:11.681Z",
+        "street-address": "West Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 2RE"
+    },
+    {
+        "name": "Ogmore by Sea",
+        "longitude": "-3.6399096",
+        "latitude": "51.4680585",
+        "geofence": "10",
+        "tags": [
+            "beach"
+        ],
+        "updated": "2015-07-18T15:04:29.609Z",
+        "locality": "Ogmore by Sea",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Old Kings Head",
+        "longitude": "-0.0822606683",
+        "latitude": "51.5231503895",
+        "geofence": "8.18",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T15:35:54.141Z",
+        "street-address": "28 Holywell Row",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "EC2A 4JB"
+    },
+    {
+        "name": "Paganini Ballroom",
+        "longitude": "-0.1418781281",
+        "latitude": "50.820357115",
+        "geofence": "14.38",
+        "tags": [
+            "hotel",
+            "venue",
+            "ballroom",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:00:23.759Z",
+        "street-address": "Old Ship Hotel, Kings Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1NR"
+    },
+    {
+        "name": "Park Crescent Health Centre",
+        "longitude": "-0.128121078",
+        "latitude": "50.8320781675",
+        "geofence": "15.66",
+        "tags": [
+            "doctors"
+        ],
+        "updated": "2015-04-03T15:51:32.558Z",
+        "street-address": "1 Lewes Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 3QA"
+    },
+    {
+        "name": "Patterns",
+        "longitude": "-0.1350921392",
+        "latitude": "50.8199775464",
+        "geofence": "14.21",
+        "tags": [
+            "venue",
+            "club",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T10:39:31.496Z",
+        "street-address": "10 Marine Parade",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 1TL"
+    },
+    {
+        "name": "Pizza 500",
+        "longitude": "-0.141851306",
+        "latitude": "50.8352967908",
+        "geofence": "16",
+        "tags": [
+            "takeaway",
+            "pizza"
+        ],
+        "updated": "2015-03-13T15:34:04.637Z",
+        "street-address": "83 Preston Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4QG"
+    },
+    {
+        "name": "Post Office (London Road)",
+        "longitude": "-0.137771666",
+        "latitude": "50.8328100003",
+        "geofence": "7.79",
+        "tags": [
+            "post-office shop"
+        ],
+        "updated": "2015-04-03T15:55:37.188Z",
+        "street-address": "82 London Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4JF"
+    },
+    {
+        "name": "Preston Park Tavern",
+        "longitude": "-0.1411485672",
+        "latitude": "50.8417706335",
+        "geofence": "18",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T15:36:04.885Z",
+        "street-address": "88 Havelock Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 6GF"
+    },
+    {
+        "name": "Prestonville Arms",
+        "longitude": "-0.1452764869",
+        "latitude": "50.8336773428",
+        "geofence": "7.18",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T15:57:31.011Z",
+        "street-address": "64 Hamilton Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 5DN"
+    },
+    {
+        "name": "Queens Hotel",
+        "longitude": "-0.1397001743",
+        "latitude": "50.8197657321",
+        "geofence": "12.28",
+        "tags": [
+            "hotel",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:37:58.608Z",
+        "street-address": "1-3 King's Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1NS"
+    },
+    {
+        "name": "RHS Garden Harlow Carr",
+        "longitude": "-1.5727615356",
+        "latitude": "53.9818342182",
+        "geofence": "57.04",
+        "tags": [
+            "gardens"
+        ],
+        "updated": "2015-04-03T16:00:00.099Z",
+        "street-address": "Crag Lane",
+        "locality": "Harrogate",
+        "country-name": "United Kingdom",
+        "postal-code": "HG3 1UE"
+    },
+    {
+        "name": "Redwood Coffee House",
+        "longitude": "-0.1364640892",
+        "latitude": "50.8280799894",
+        "geofence": "10",
+        "tags": [
+            "coffee-house"
+        ],
+        "updated": "2015-03-13T15:37:31.065Z",
+        "street-address": "99 Trafalgar Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4ER"
+    },
+    {
+        "name": "Riki Tik",
+        "longitude": "-0.1401400566",
+        "latitude": "50.8241627981",
+        "geofence": "7.14",
+        "tags": [
+            "bar"
+        ],
+        "updated": "2015-04-03T16:03:00.253Z",
+        "street-address": "18a Church Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1RD"
+    },
+    {
+        "name": "Rileys Sports Hall",
+        "longitude": "-0.135794878",
+        "latitude": "50.8303298538",
+        "geofence": "13.26",
+        "tags": [
+            "pool"
+        ],
+        "updated": "2015-04-03T16:07:10.386Z",
+        "street-address": "119 London Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4JH"
+    },
+    {
+        "name": "Seattle Hotel",
+        "longitude": "-0.1020932329",
+        "latitude": "50.8124154379",
+        "geofence": "17.34",
+        "tags": [
+            "hotel"
+        ],
+        "updated": "2015-03-13T15:40:27.133Z",
+        "street-address": "Marina Brighton",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 5WA"
+    },
+    {
+        "name": "Senor Buddha",
+        "longitude": "-0.1395606995",
+        "latitude": "50.8338365798",
+        "geofence": "12.86",
+        "tags": [
+            "restaurant",
+            "tapas",
+            "fusion"
+        ],
+        "updated": "2015-11-03T14:20:15.224Z",
+        "street-address": "9 Preston Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4QE"
+    },
+    {
+        "name": "Shooshh",
+        "longitude": "-0.14101316031553945",
+        "latitude": "50.81976236206195",
+        "geofence": "10",
+        "tags": [
+            "club",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:26:48.011Z",
+        "street-address": "214 King's Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1NB"
+    },
+    {
+        "name": "Shuffle",
+        "longitude": "-0.1357761025",
+        "latitude": "50.8291490273",
+        "geofence": "10",
+        "tags": [
+            "bar",
+            "cocktails"
+        ],
+        "updated": "2015-03-13T15:43:31.151Z",
+        "street-address": "27 York Place",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4GU"
+    },
+    {
+        "name": "Sipgate",
+        "longitude": "6.7558515072",
+        "latitude": "51.2120857162",
+        "geofence": "10",
+        "tags": [
+            "venue"
+        ],
+        "updated": "2015-05-08T18:29:30.007Z",
+        "street-address": "74 Gladbacher Straße",
+        "locality": "Düsseldorf",
+        "country-name": "Germany",
+        "postal-code": "40219"
+    },
+    {
+        "name": "Six Senses Con Dao",
+        "longitude": "106.6329574585",
+        "latitude": "8.6993961687",
+        "geofence": "217.23",
+        "tags": [
+            "resort",
+            "hotel"
+        ],
+        "updated": "2015-04-02T10:06:39.565Z",
+        "street-address": "Pham Chu Trinh",
+        "locality": "Con Dao District",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Six Senses Ninh Van Bay",
+        "longitude": "109.2761778831",
+        "latitude": "12.357420616",
+        "geofence": "500",
+        "tags": [
+            "resort",
+            "hotel"
+        ],
+        "updated": "2015-03-13T16:06:39.492Z",
+        "street-address": "Ninh Van Bay",
+        "locality": "Ninh Hoa",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Speisen & Getranke",
+        "longitude": "6.7746459",
+        "latitude": "51.2262615",
+        "geofence": "10",
+        "updated": "2015-05-12T18:50:06.134Z",
+        "locality": "Düsseldorf",
+        "country-name": "Germany"
+    },
+    {
+        "name": "Spiegelpub",
+        "longitude": "-0.1376509666",
+        "latitude": "50.8208146267",
+        "geofence": "16.6",
+        "tags": [
+            "veune",
+            "tent",
+            "temporary",
+            "park",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T11:56:20.188Z",
+        "street-address": "Old Steine Pleasure Gardens",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1GY"
+    },
+    {
+        "name": "Spiegeltent",
+        "longitude": "-0.1376563311",
+        "latitude": "50.8207197358",
+        "geofence": "20.78",
+        "tags": [
+            "veune",
+            "tent",
+            "temporary",
+            "park",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:05:00.627Z",
+        "street-address": "Old Steine Pleasure Gardens",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1GY"
+    },
+    {
+        "name": "St Georges Church",
+        "longitude": "-0.1193663478",
+        "latitude": "50.8182050554",
+        "geofence": "15.26",
+        "tags": [
+            "church",
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T11:58:44.312Z",
+        "street-address": "St George's Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 1ED"
+    },
+    {
+        "name": "Sticky Mikes Frog Bar",
+        "longitude": "-0.1433882117",
+        "latitude": "50.8212755229",
+        "geofence": "10",
+        "tags": [
+            "bar",
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:03:16.515Z",
+        "street-address": "9-12 Middle Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AL"
+    },
+    {
+        "name": "Takumi Tonkotsu & Gyoza",
+        "longitude": "6.7880567908",
+        "latitude": "51.2251796557",
+        "geofence": "9.47",
+        "tags": [
+            "restaurant",
+            "japanese"
+        ],
+        "updated": "2015-05-09T05:34:18.894Z",
+        "street-address": "51 Oststra",
+        "locality": "Düsseldorf",
+        "country-name": "Germany",
+        "postal-code": "40211"
+    },
+    {
+        "name": "Tan Son Nhat Airport (SGN)",
+        "longitude": "106.6635131836",
+        "latitude": "10.8221780413",
+        "geofence": "1100",
+        "tags": [
+            "airport"
+        ],
+        "updated": "2015-03-13T14:38:30.639Z",
+        "street-address": "Truong Son",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Ten Green Bottles",
+        "longitude": "-0.1383763",
+        "latitude": "50.825783",
+        "geofence": "10",
+        "tags": [
+            "bar",
+            "wine"
+        ],
+        "updated": "2015-03-13T16:11:53.144Z",
+        "street-address": "9 Jubilee Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1GE"
+    },
+    {
+        "name": "Terre à Terre",
+        "longitude": "-0.1390510798",
+        "latitude": "50.8202537506",
+        "geofence": "11.51",
+        "tags": [
+            "restaurant vegetarian"
+        ],
+        "updated": "2015-04-03T17:49:28.516Z",
+        "street-address": "71 East Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1HQ"
+    },
+    {
+        "name": "The Arch",
+        "longitude": "-0.1428544521",
+        "latitude": "50.8200758278",
+        "geofence": "14.42",
+        "tags": [
+            "club",
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:46:56.998Z",
+        "street-address": "187-193 King’s Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1NB"
+    },
+    {
+        "name": "The Basketmakers Arms",
+        "longitude": "-0.1368865371",
+        "latitude": "50.8265856671",
+        "geofence": "9.08",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-01T16:45:50.913Z",
+        "street-address": "12 Gloucester Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4AD"
+    },
+    {
+        "name": "The Battle of Trafalgar",
+        "longitude": "-0.1424789429",
+        "latitude": "50.828911842",
+        "geofence": "8.13",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T17:53:10.747Z",
+        "street-address": "34 Guildford Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 3LW"
+    },
+    {
+        "name": "The Branch",
+        "longitude": "-0.137981",
+        "latitude": "50.8326274",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-12T17:57:26.696Z",
+        "street-address": "London Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "The Bull Ditchling",
+        "longitude": "-0.1146188378",
+        "latitude": "50.9210978657",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T18:26:00.830Z",
+        "street-address": "2 High Street",
+        "locality": "Ditchling",
+        "country-name": "United Kingdom",
+        "postal-code": "BN6 8TA"
+    },
+    {
+        "name": "The Caroline of Brunswick",
+        "longitude": "-0.134601295",
+        "latitude": "50.8306991736",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T18:33:11.296Z",
+        "street-address": "39 Ditchling Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4SB"
+    },
+    {
+        "name": "The Cleveland",
+        "longitude": "-0.138477087",
+        "latitude": "50.8422956834",
+        "geofence": "18",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T13:46:28.202Z",
+        "street-address": "27 Cleveland Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 6FF"
+    },
+    {
+        "name": "The Coal Shed",
+        "longitude": "-0.1435589504",
+        "latitude": "50.822090005",
+        "geofence": "10",
+        "tags": [
+            "restaurant",
+            "steak",
+            "seafood"
+        ],
+        "updated": "2015-03-13T16:30:08.624Z",
+        "street-address": "8 Boyce's St",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AN"
+    },
+    {
+        "name": "The Coffee Bean & Tea Leaf @ Metropolitan",
+        "longitude": "106.69981956481934",
+        "latitude": "10.778610705046116",
+        "geofence": "10",
+        "tags": [
+            "coffee-house"
+        ],
+        "updated": "2015-04-03T18:38:43.626Z",
+        "street-address": "235 Ðồng Khởi",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "The Cricketers",
+        "longitude": "-0.1409007606",
+        "latitude": "50.8214892484",
+        "geofence": "12.63",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T16:32:54.049Z",
+        "street-address": "14 Black Lion Steet",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1ND"
+    },
+    {
+        "name": "The Dome",
+        "longitude": "-0.1384395361",
+        "latitude": "50.8236206004",
+        "geofence": "28",
+        "tags": [
+            "theatre",
+            "venue"
+        ],
+        "updated": "2015-05-03T12:50:43.067Z",
+        "street-address": "Church Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UE"
+    },
+    {
+        "name": "The Dome, Studio Theatre",
+        "longitude": "-0.1391154528",
+        "latitude": "50.8236392386",
+        "geofence": "12",
+        "tags": [
+            "theatre",
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:06:21.482Z",
+        "street-address": "New Road",
+        "locality": "Brighton",
+        "country-name": "Brighton",
+        "postal-code": "BN1 1UG"
+    },
+    {
+        "name": "The Druids",
+        "longitude": "-0.1343679428",
+        "latitude": "50.8318071154",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-01T16:12:22.052Z",
+        "street-address": "79 81 Ditchling Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4SD"
+    },
+    {
+        "name": "The Eagle",
+        "longitude": "-0.1369911432",
+        "latitude": "50.8267788135",
+        "geofence": "12",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T14:02:25.445Z",
+        "street-address": "125 Gloucester Road",
+        "locality": "Brighton",
+        "country-name": "BN1 4AF",
+        "postal-code": "United Kingdom"
+    },
+    {
+        "name": "The Evening Star",
+        "longitude": "-0.1420980692",
+        "latitude": "50.8276056066",
+        "geofence": "9.24",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T18:47:09.234Z",
+        "street-address": "55-56 Surrey Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 3PB"
+    },
+    {
+        "name": "The Foundry",
+        "longitude": "-0.140016675",
+        "latitude": "50.8264890936",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T18:48:55.409Z",
+        "street-address": "13-14 Foundry Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4AT"
+    },
+    {
+        "name": "The Fountain Head",
+        "longitude": "-0.1373237371",
+        "latitude": "50.825508099",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T17:37:21.548Z",
+        "street-address": "102 North Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "The George Payne",
+        "longitude": "-0.1860272884",
+        "latitude": "50.8360573699",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T18:51:30.320Z",
+        "street-address": "18 Payne Avenue",
+        "locality": "Hove",
+        "country-name": "United Kingdom",
+        "postal-code": "BN3 5HB"
+    },
+    {
+        "name": "The Great Eastern",
+        "longitude": "-0.1359987259",
+        "latitude": "50.8280393282",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T14:20:54.608Z",
+        "street-address": "103 Trafalgar Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4ER"
+    },
+    {
+        "name": "The Hare and Hounds",
+        "longitude": "-0.1385463846",
+        "latitude": "50.8334864949",
+        "geofence": "7.34",
+        "tags": [
+            "pub",
+            "mexican"
+        ],
+        "updated": "2015-03-13T16:49:52.328Z",
+        "street-address": "75 London Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4JF"
+    },
+    {
+        "name": "The Haunt",
+        "longitude": "-0.138348341",
+        "latitude": "50.8199131549",
+        "geofence": "10",
+        "tags": [
+            "club",
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:34:48.941Z",
+        "street-address": "10 Pool Valley",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1NJ"
+    },
+    {
+        "name": "The Heart & Hand",
+        "longitude": "-0.1395714283",
+        "latitude": "50.8258215451",
+        "geofence": "8.68",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T18:54:11.802Z",
+        "street-address": "75 North Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1YD"
+    },
+    {
+        "name": "The Hobgoblin",
+        "longitude": "-0.1360523701",
+        "latitude": "50.8292184885",
+        "geofence": "25",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T14:41:35.361Z",
+        "street-address": "31 York Place",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4GU"
+    },
+    {
+        "name": "The Hop Poles",
+        "longitude": "-0.1433427",
+        "latitude": "50.8214442",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T16:50:58.325Z",
+        "street-address": "13 Middle St",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AL"
+    },
+    {
+        "name": "The Hop Poles",
+        "longitude": "-0.2257967018",
+        "latitude": "51.4926866303",
+        "geofence": "16",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T16:53:03.508Z",
+        "street-address": "17-19 Kings Street",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "W6 9HR"
+    },
+    {
+        "name": "The Hub",
+        "longitude": "-0.1531183",
+        "latitude": "50.8218478",
+        "geofence": "10",
+        "tags": [
+            "venue",
+            "club",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T11:55:33.472Z",
+        "street-address": "193 Kings Road Arches",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1NB"
+    },
+    {
+        "name": "The Marwood",
+        "longitude": "-0.1414945722",
+        "latitude": "50.8224650206",
+        "geofence": "7.63",
+        "tags": [
+            "coffee-house"
+        ],
+        "updated": "2015-04-03T18:56:17.526Z",
+        "street-address": "52 Ship Street Court",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AF"
+    },
+    {
+        "name": "The Mitre Tavern",
+        "longitude": "-0.1353737712",
+        "latitude": "50.831905372",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T18:58:56.864Z",
+        "street-address": "13 Baker Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4JN"
+    },
+    {
+        "name": "The North Laine",
+        "longitude": "-0.1357331872",
+        "latitude": "50.8267737307",
+        "geofence": "16.1",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T19:02:41.692Z",
+        "street-address": "Gloucester Place",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4EW"
+    },
+    {
+        "name": "The Old Market",
+        "longitude": "-0.1573973894",
+        "latitude": "50.8246067178",
+        "geofence": "17.73",
+        "tags": [
+            "venue",
+            "theatre",
+            "comedy",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:43:33.304Z",
+        "street-address": "11 Upper Market Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AS"
+    },
+    {
+        "name": "The Open House",
+        "longitude": "-0.13628304",
+        "latitude": "50.8372193889",
+        "geofence": "14",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T15:30:10.872Z",
+        "street-address": "146 Springfield Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 6BZ"
+    },
+    {
+        "name": "The Palmeira",
+        "longitude": "-0.1600095",
+        "latitude": "50.832175",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T15:32:18.000Z",
+        "street-address": "70-71 Cromwell Road",
+        "locality": "Hove",
+        "country-name": "United Kingdom",
+        "postal-code": "BN3 3ES"
+    },
+    {
+        "name": "The Park Crescent",
+        "longitude": "-0.1311144233",
+        "latitude": "50.8332199572",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T19:04:24.867Z",
+        "street-address": "39 Park Crescent",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "N2 3HE"
+    },
+    {
+        "name": "The Prince Albert",
+        "longitude": "-0.1406013966",
+        "latitude": "50.8284527154",
+        "geofence": "12.45",
+        "tags": [
+            "pub",
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:01:37.594Z",
+        "street-address": "48 Trafalgar Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4ED"
+    },
+    {
+        "name": "The Prince George",
+        "longitude": "-0.1362079382",
+        "latitude": "50.827861435",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T19:08:48.580Z",
+        "street-address": "5 Trafalgar Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4EQ"
+    },
+    {
+        "name": "The Quadrant",
+        "longitude": "-0.1434525847",
+        "latitude": "50.8240950237",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T19:11:58.743Z",
+        "street-address": "12-13 North Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 3GJ"
+    },
+    {
+        "name": "The Queens Club",
+        "longitude": "-0.2114867955",
+        "latitude": "51.4874837778",
+        "geofence": "123.62",
+        "tags": [
+            "club"
+        ],
+        "updated": "2015-07-31T12:16:56.839Z",
+        "street-address": "Palliser Road",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "W14 9EQ"
+    },
+    {
+        "name": "The Set",
+        "longitude": "-0.1499918103",
+        "latitude": "50.8232478358",
+        "geofence": "7.39",
+        "tags": [
+            "restaurant"
+        ],
+        "updated": "2015-09-17T09:45:39.085Z",
+        "street-address": "33 Regency Square",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 2GG"
+    },
+    {
+        "name": "The Signalman",
+        "longitude": "-0.1362615824",
+        "latitude": "50.8359472646",
+        "geofence": "22",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T16:54:29.108Z",
+        "street-address": "76-78 Ditchling Rise",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4QQ"
+    },
+    {
+        "name": "The Victory",
+        "longitude": "-0.142449291",
+        "latitude": "50.82265651",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T17:06:07.465Z",
+        "street-address": "6 Duke Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1AH"
+    },
+    {
+        "name": "The White Hart",
+        "longitude": "-0.0561305881",
+        "latitude": "51.5200812414",
+        "geofence": "11.7",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T19:16:54.433Z",
+        "street-address": "1 Mile End Road",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "E1 4TP"
+    },
+    {
+        "name": "The Wood Store",
+        "longitude": "-0.1344832778",
+        "latitude": "50.824479642",
+        "geofence": "17.75",
+        "updated": "2015-04-03T19:18:43.491Z",
+        "street-address": "Kingswood Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "The Worlds End",
+        "longitude": "-0.1384016",
+        "latitude": "50.8328325",
+        "geofence": "26",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T17:10:02.150Z",
+        "street-address": "60-61 London Rd",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4JE"
+    },
+    {
+        "name": "Three and Ten",
+        "longitude": "-0.1361502707",
+        "latitude": "50.8208053071",
+        "geofence": "6.89",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T19:24:42.199Z",
+        "street-address": "10 Steine Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN2 1TE"
+    },
+    {
+        "name": "Turkish Delight",
+        "longitude": "-0.1402167866",
+        "latitude": "50.834263547",
+        "geofence": "13.05",
+        "tags": [
+            "takeway kebab"
+        ],
+        "updated": "2015-03-26T22:17:39.572Z",
+        "street-address": "15 Preston Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Unitarian Church",
+        "longitude": "-0.1394560933",
+        "latitude": "50.8239543916",
+        "geofence": "10",
+        "tags": [
+            "church",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:18:25.119Z",
+        "street-address": "New Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UF"
+    },
+    {
+        "name": "Valentinos",
+        "longitude": "-0.1398074627",
+        "latitude": "50.8231309227",
+        "geofence": "6.35",
+        "tags": [
+            "bar cocktails"
+        ],
+        "updated": "2015-04-03T19:26:58.385Z",
+        "street-address": "7 New Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UF"
+    },
+    {
+        "name": "Victoria Railway Station (VIC)",
+        "longitude": "-0.1442813873",
+        "latitude": "51.4950046139",
+        "geofence": "95",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-03-13T15:13:26.137Z",
+        "street-address": "Victoria Street",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "SW1E 5ND"
+    },
+    {
+        "name": "Wagner Hall",
+        "longitude": "-0.1446890831",
+        "latitude": "50.8224277433",
+        "geofence": "10",
+        "tags": [
+            "venue",
+            "tge2015"
+        ],
+        "updated": "2015-05-03T12:49:56.049Z",
+        "street-address": "Regency Road",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 2RT"
+    },
+    {
+        "name": "Wagon and Horses",
+        "longitude": "-0.1389424503",
+        "latitude": "50.8241695755",
+        "geofence": "9",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-03-13T17:08:55.880Z",
+        "street-address": "109 Church Street",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 1UD"
+    },
+    {
+        "name": "Wahaca",
+        "longitude": "-3.1751736",
+        "latitude": "51.4779486",
+        "geofence": "10",
+        "updated": "2015-07-19T13:49:49.524Z",
+        "locality": "Cardiff",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Wahaca",
+        "longitude": "-3.1751736",
+        "latitude": "51.4779486",
+        "geofence": "10",
+        "updated": "2015-07-19T13:49:34.744Z",
+        "locality": "Cardiff",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Wahaca",
+        "longitude": "-3.1751736",
+        "latitude": "51.4779486",
+        "geofence": "10",
+        "updated": "2015-07-19T13:48:48.335Z",
+        "locality": "Cardiff",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "War Remnants Museum (Bảo tàng Chứng tích Chiến tranh)",
+        "longitude": "106.692301333",
+        "latitude": "10.7794459631",
+        "geofence": "38.17",
+        "tags": [
+            "museum"
+        ],
+        "updated": "2015-04-02T13:54:52.303Z",
+        "street-address": "28 Võ Văn Tần",
+        "locality": "Ho Chi Minh City",
+        "country-name": "Vietnam"
+    },
+    {
+        "name": "Waterloo Railway Station (WAT)",
+        "longitude": "-0.1124489307",
+        "latitude": "51.5028057068",
+        "geofence": "75.09",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-04-03T15:46:35.635Z",
+        "street-address": "Station Approach",
+        "locality": "London",
+        "country-name": "United Kingdom",
+        "postal-code": "SE1 8SW"
+    },
+    {
+        "name": "White Rabbit",
+        "longitude": "-0.1386755705",
+        "latitude": "50.8266754634",
+        "geofence": "8.86",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-04-03T19:30:04.784Z",
+        "street-address": "13-14 Kensington Gardens",
+        "locality": "Brighton",
+        "country-name": "United Kingdom",
+        "postal-code": "BN1 4AL"
+    },
+    {
+        "name": "Windmill",
+        "longitude": "-0.1489096704",
+        "latitude": "50.8255798918",
+        "geofence": "10",
+        "tags": [
+            "pub"
+        ],
+        "updated": "2015-07-09T15:57:26.698Z",
+        "street-address": "Upper North Street",
+        "locality": "undefined",
+        "country-name": "United Kingdom"
+    },
+    {
+        "name": "Worthing Library",
+        "longitude": "-0.372376442",
+        "latitude": "50.8141565422",
+        "geofence": "21.14",
+        "tags": [
+            "library"
+        ],
+        "updated": "2015-04-03T19:32:22.207Z",
+        "street-address": "Richmond Road",
+        "locality": "Worthing",
+        "country-name": "United Kingdom",
+        "postal-code": "BN11 1HD"
+    },
+    {
+        "name": "Worthing Railway Station (WRH)",
+        "longitude": "-0.3761637211",
+        "latitude": "50.8186659773",
+        "geofence": "34.84",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-04-03T19:35:43.556Z",
+        "street-address": "Railway Approach",
+        "locality": "Worthing",
+        "country-name": "United Kingdom",
+        "postal-code": "BN11 1UR"
+    },
+    {
+        "name": "York Railway Station (YRK)",
+        "longitude": "-1.0933113098144531",
+        "latitude": "53.95795410823092",
+        "geofence": "77.74",
+        "tags": [
+            "train-station"
+        ],
+        "updated": "2015-04-03T19:38:19.490Z",
+        "street-address": "Station Road",
+        "locality": "York",
+        "country-name": "United Kingdom",
+        "postal-code": "YO24 1AB"
+    },
+    {
+        "name": "Zum goldenen Einhorn",
+        "longitude": "6.7749747",
+        "latitude": "51.2292888",
+        "geofence": "10",
+        "tags": [
+            "bar"
+        ],
+        "updated": "2015-05-09T17:55:24.016Z",
+        "street-address": "19 Ratinger Straße",
+        "locality": "Düsseldorf",
+        "country-name": "Germany",
+        "postal-code": "40213"
+    }
+]

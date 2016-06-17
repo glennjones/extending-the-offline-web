@@ -4,72 +4,16 @@
     <!-- built with bespoke.js -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Hello World</title>
+    <title>Extending the offline web</title>
     <link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="build/build.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/extending-offline-web.css">
 
-    <script src="assets/fetch.js"></script>
-    <script src="assets/beautify.js"></script>
+
+    <script src="assets/javascript/fetch.js"></script>
+    <script src="assets/javascript/beautify.js"></script>
     <script src="/mani/mani.js "></script>
-
-
-    <script>
-
-        var indexBuildEvent = new Event('index-built');
-
-        var options = {
-            'text': [
-                {'path': 'title', 'boost': 20},
-                {'path': 'tags'},
-                {'path': 'text'},
-            ]
-        }
-        var jsonFileIndex = new Mani(options);
-
-
-        fetch('/data/asyncjs-events.json')
-            .then(function(response) {
-                return response.json()
-            }).then(function(json) {
-                json = json.filter(function(item){
-                    return (item.title !== null && item.category === "event")
-                });
-                jsonFileIndex.add(json);
-                document.dispatchEvent(indexBuildEvent);
-            }).catch(function(ex) {
-                console.log('parsing failed', ex)
-            })
-
-
-        function fireQuery( query, index ){
-
-            return index.search(query);
-        }
-
-
-        function displayText( query, index, outputElement ){
-
-            var out = fireQuery( query, index );
-            var titles = out.items.map( function( entry ){
-                return '<li>' + entry.title +  '</li>'
-            })
-            outputElement.innerHTML = '<p>Found: ' + out.items.length + '</p><ul>' + titles.join('') + '</ul>';
-        }
-
-
-        function displayFacets( query, index, outputElement ){
-
-            var out = fireQuery( query, index );
-            var facets = out.facets.map( function( facet ){
-                return '<li>' + facet[0] + ' (' + facet[1] + ')</li>'
-            })
-            outputElement.innerHTML = '<ul>' + facets.join('') + '</ul>';
-        }
-
-
-
-    </script>
-
+    <script src="assets/javascript/extending-offline-web.js"></script>
 
 
   </head>
@@ -100,18 +44,19 @@
 
       <section>
           <h2>The guardian jobs website</h2>
-        <img src="assets/theguardianjobs01.png" alt="screenshot of the guardian jobs website" style="width:75%"/>
+        <img src="assets/images/theguardianjobs01.png" alt="screenshot of the guardian jobs website" style="width:75%"/>
       </section>
 
 
       <section>
           <h2>Responsive layout</h2>
-        <img src="assets/theguardianjobs02.png" alt="screenshot of the guardian jobs website at mobile screen size" style="height:75%"/>
+        <img src="assets/images/theguardianjobs02.png" alt="screenshot of the guardian jobs website at mobile screen size" style="height:75%"/>
       </section>
 
 
       <section>
-          <h2>Progressively less progressive</h2>
+            <!--<h2>Progressively less progressive</h2>-->
+            <img src="assets/images/washpost.png" alt="screenshot of Washington Post Progressive Web Apps warning screen"" style="width:60%" />
 
             <p class="expanded"><strong>When building examples and demos, focus on how to add technologies to mature sites</strong> <span class="subdue">with 100k+ LOC,
             not how “super easy” it is to build something greenfield. We know that. Greenfield is always easy, but that’s not the
@@ -124,21 +69,22 @@
 
        <section>
           <h2>Mockup of a possible offline version</h2>
-        <img src="assets/theguardianjobs03.png" alt="mockup of a possible offline version the guardian jobs website" style="height:75%"/>
+        <img src="assets/images/theguardianjobs03.png" alt="mockup of a possible offline version the guardian jobs website" style="height:75%"/>
       </section>
 
 
         <section>
-            <h2>Mockup of a possible offline version</h2>
+            <h2>Mockups of possible offline versions</h2>
             <div class="flex-container">
-                <div class="flex-item"><img src="assets/british-airways.png" alt="mockup of a possible offline version the british airways website" style="height:75%"/></div>
-                <div class="flex-item"><img src="assets/amazon.png" alt="mockup of a possible offline version the amazon website" style="height:75%" /></div>
+                <div class="flex-item"><img src="assets/images/british-airways.png" alt="mockup of a possible offline version the british airways website" style="height:65%"/></div>
+                <div class="flex-item"><img src="assets/images/amazon.png" alt="mockup of a possible offline version the amazon website" style="height:65%" /></div>
             </div>
         </section>
 
 
       <section>
-          <h2>Progressively less progressive</h2>
+            <!--<h2>Progressively less progressive</h2>-->
+            <img src="assets/images/washpost.png" alt="screenshot of Washington Post Progressive Web Apps warning screen"" style="width:60%" />
 
             <p class="expanded"><span class="subdue">When building examples and demos, focus on how to add technologies to mature sites with 100k+ LOC,
             not how “super easy” it is to build something greenfield. We know that. Greenfield is always easy, but that’s not the
@@ -150,36 +96,36 @@
 
 
       <section>
-          <h2>An approach thats more</br><strong>site funiture</strong> than <del>app-shell</del></h2>
+          <h2>An approach that's more</br><strong>site funiture</strong> than <del>app-shell</del></h2>
       </section>
 
 
       <section>
         <h2>Tipping points for</br>offline UX and architecture</h2>
-        <ul>
+        <ol class="larger">
             <li>The &quot;Lie-fi&quot; gap (offline first)</li>
-            <li>All content is NOT equal when offlining a site</li>
+            <li>All content is NOT equal</br>when offlining a site</li>
             <li>Streams and notification UX patterns</li>
-       </ul>
+       </ol>
       </section>
 
 
     <section>
         <h2>1. The &quot;Lie-fi&quot; gap (offline first)</h2>
-        <img src="assets/lie-fi-gap.png" alt="mockup of a possible offline version the guardian jobs website" style="width:75%" />
+        <img src="assets/images/lie-fi-gap.png" alt="mockup of a possible offline version the guardian jobs website" style="width:75%" />
     </section>
 
 
 
       <section>
           <div class="flex-container">
-              <div class="flex-item"><img src="assets/theguardianjobs03.png" alt="mockup of a possible offline version the guardian jobs website"/></div>
+              <div class="flex-item"><img src="assets/images/theguardianjobs03.png" alt="mockup of a possible offline version the guardian jobs website"/></div>
               <div class="flex-item">
                   <h2>2. All content is NOT equal when offlining a site</h2>
                   <ul>
                     <li>Size</li>
                     <li>Frequency of renewal</li>
-                    <li>Multilpe conflicting writes sources</li>
+                    <li>Multiple conflicting write sources</li>
                     <li>Relevance to user</li>
                   </ul>
               </div>
@@ -190,9 +136,9 @@
     <section>
         <h2>3. Streams and notification UX patterns</h2>
         <div class="flex-container">
-            <div class="flex-item"><img src="assets/twitter.png" alt="screenshot of the twitter website" style="width:75%" /></div>
+            <div class="flex-item"><img src="assets/images/twitter.png" alt="screenshot of the twitter website" style="width:75%" /></div>
             <div class="flex-item">
-                The move to streams and notification in mobile app can just be seen as part of the evolution of the products we design to communicate.</br></br>
+                The move to streams and notification in mobile apps can just be seen as part of the evolution of the products we design to communicate.</br></br>
                 I would suggest these features are also driven by the offline properties (restrictions) of mobile devices.
             </div>
         </div>
@@ -201,8 +147,8 @@
 
 
       <section>
-          <h2>What elements of document search can be provided offline</h2>
-        <img src="assets/theguardianjobs01.png" alt="screenshot of the guardian jobs website" style="width:65%"/>
+          <h2>What elements of document search can be provided offline?</h2>
+        <img src="assets/images/theguardianjobs01.png" alt="screenshot of the guardian jobs website" style="width:65%"/>
       </section>
 
 
@@ -213,7 +159,7 @@
 
 
       <section>
-        <img src="assets/friendsdont.png" alt="image of tweet: Friends don’t let friends build their own {CRYPTO, SYNC, DATABASE}." style="width:60%"/>
+        <img src="assets/images/friendsdont.png" alt="image of tweet: Friends don’t let friends build their own {CRYPTO, SYNC, DATABASE}." style="width:60%"/>
       </section>
 
 
@@ -236,28 +182,13 @@ index.add({
 });</code></pre>
    </section>
 
-<!--
          <section>
         <h2>Creating a query</h2>
-        <pre><code class="language-javascript"> var results = index.search({
-    'text': 'visual'
+        <pre><code class="language-javascript">var results = index.search({
+    'text': 'promises'
 })
-// results
-{
-    "criteria": {
-        "text": "visual"
-    },
-    "items": [
-        {
-            "score": 0.5034,
-            "title": "D3.js: Data Visualisation in the Browser",
-            "summary": "An introduction to data visualisation using D3.js",
-            "date": "2013-01-10T19:15+00:00",
-            "lanyrd": "http://lanyrd.com/2013/asyncjs-d3/"
-            ....
 </code></pre>
    </section>
--->
 
       <section>
         <h2>Free text query</h2>
@@ -277,104 +208,6 @@ index.add({
             <div id="output01" class="flex-item edit-panel edit-html-result">&nbsp;</div>
         </div>
 
-        <script>
-            var input01 = document.getElementById('input01');
-            var output01 = document.getElementById('output01');
-            var textSimpleBtn = document.getElementById('text-simple');
-            var textPagingBtn = document.getElementById('text-paging');
-            var textSortBtn = document.getElementById('text-sort');
-
-            document.addEventListener('index-built', function (evt) {
-                 updateText( input01, jsonFileIndex, output01 );
-            }, false);
-
-            input01.addEventListener('input', function (evt) {
-                updateText( input01, jsonFileIndex, output01 );
-            }, false);
-
-
-            textSimpleBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input01, function( err, json ){
-                    if(json){
-                        delete json.startAt;
-                        delete json.limit;
-                        delete json.sort;
-                        input01.value = js_beautify( JSON.stringify(json) );
-                    }else{
-                        input01.value = js_beautify( JSON.stringify({"text": "promises",}) );
-                    }
-                    updateText( input01, jsonFileIndex, output01 );
-                });
-            }, false);
-
-
-           textPagingBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input01, function( err, json ){
-                    if(json){
-                        json.startAt = 0;
-                        json.limit = 200;
-                        delete json.sort;
-                        input01.value = js_beautify( JSON.stringify(json) );
-                    }else{
-                        input01.value = js_beautify( JSON.stringify({"text": "promises","startAt":0,"limit":200}) );
-                    }
-                    updateText( input01, jsonFileIndex, output01 );
-                });
-            }, false);
-
-
-           textSortBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input01, function( err, json ){
-                    if(json){
-                        json.startAt = 0;
-                        json.limit = 200;
-                        json.sort = {
-                            'path': 'score',
-                            'reverse': true
-                        }
-                        input01.value = js_beautify( JSON.stringify(json) );
-                    }else{
-                        input01.value = js_beautify( JSON.stringify({
-                            'text': 'promises',
-                            'startAt':0,
-                            'limit':200,
-                            'sort': {
-                                'path': 'score',
-                                'reverse': true
-                            }
-                        }) );
-                    }
-                    updateText( input01, jsonFileIndex, output01 );
-                });
-            }, false);
-
-
-
-
-            function updateText( input, index, output ){
-                var str = input.value;
-                parseJsonFromElt( input, function( err, json ){
-                    if(json){
-                        displayText( JSON.parse(str), index, output )
-                    }else{
-                        displayText( err, jsonFileIndex, output )
-                    }
-                });
-            }
-
-
-            function parseJsonFromElt( elt, callback ){
-                var str = elt.value;
-                try{
-                    var json = JSON.parse(str);
-                    callback( null, json );
-                }catch(err){
-                    callback( err, null );
-                }
-            }
-
-
-        </script>
 
    </section>
 
@@ -397,96 +230,6 @@ index.add({
             </div>
             <div id="output02" class="flex-item edit-panel edit-html-result">&nbsp;</div>
         </div>
-
-              <script>
-            var input02 = document.getElementById('input02');
-            var output02 = document.getElementById('output02');
-            var facetSimpleBtn = document.getElementById('facet-simple');
-            var facetPropertiesBtn = document.getElementById('facet-properties');
-            var facetTextBtn = document.getElementById('facet-text');
-
-            document.addEventListener('index-built', function (evt) {
-                 updateFacets( input02, jsonFileIndex, output02 );
-            }, false);
-
-            input02.addEventListener('input', function (evt) {
-                updateFacets( input02, jsonFileIndex, output02 );
-            }, false);
-
-
-            function updateFacets( input, index, output ){
-                var str = input.value;
-                parseJsonFromElt( input, function( err, json ){
-                    if(json){
-                        displayFacets( JSON.parse(str), index, output )
-                    }else{
-                        displayFacets( err, jsonFileIndex, output )
-                    }
-                });
-            }
-
-
-           facetSimpleBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input02, function( err, json ){
-                    if(json){
-                        delete json.facets.limit;
-                        delete json.facets.lowerCase;
-                        delete json.text;
-                        input02.value = js_beautify( JSON.stringify(json) );
-                    }else{
-                        input02.value = js_beautify( JSON.stringify({"facets":{"path": "tags"}}) );
-                    }
-                    updateFacets( input02, jsonFileIndex, output02 );
-                });
-            }, false);
-
-
-            facetPropertiesBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input02, function( err, json ){
-                    if(json){
-                        delete json.text;
-                        json.facets.limit = 7;
-                        json.facets.lowerCase = false;
-                        input02.value = js_beautify( JSON.stringify(json) );
-                    }else{
-                        input02.value = js_beautify( JSON.stringify({
-                            "facets":{
-                                "path": "tags",
-                                "limit": 7,
-                                "lowerCase": false
-                            }
-                        }));
-                    }
-                    updateFacets( input02, jsonFileIndex, output02 );
-                });
-            }, false);
-
-
-             facetTextBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input02, function( err, json ){
-                    if(json){
-                        json.text = "css";
-                        json.facets.limit = 7;
-                        json.facets.lowerCase = false;
-                        input02.value = js_beautify( JSON.stringify(json) );
-                    }else{
-                        input02.value = js_beautify( JSON.stringify({
-                            "text": "css",
-                            "facets":{
-                                "path": "tags",
-                                "limit": 7,
-                                "lowerCase": false
-                            }
-                        }));
-                    }
-                    updateFacets( input02, jsonFileIndex, output02 );
-                });
-            }, false);
-
-
-
-
-              </script>
 </section>
 
 
@@ -508,66 +251,6 @@ index.add({
             </div>
             <div id="output03" class="flex-item edit-panel edit-html-result">&nbsp;</div>
         </div>
-
-              <script>
-            var input03 = document.getElementById('input03');
-            var output03 = document.getElementById('output03');
-            var structuredSimpleBtn = document.getElementById('structured-simple');
-            var structuredOpBtn = document.getElementById('structured-op');
-            var structuredComplexBtn = document.getElementById('structured-complex');
-
-            document.addEventListener('index-built', function (evt) {
-                 updateText( input03, jsonFileIndex, output03 );
-            }, false);
-
-            input03.addEventListener('input', function (evt) {
-                updateText( input03, jsonFileIndex, output03 );
-            }, false);
-
-
-           structuredSimpleBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input03, function( err, json ){
-                    input03.value = js_beautify( JSON.stringify({
-                        "query": {
-                            "sponsors":   null
-                        }
-                    }) );
-                    updateText( input03, jsonFileIndex, output03 );
-                });
-            }, false);
-
-
-            structuredOpBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input03, function( err, json ){
-                    input03.value = js_beautify( JSON.stringify({
-                        "query": {
-                            "date": {"$gt": "2014"}
-                        }
-                    }));
-                    updateText( input03, jsonFileIndex, output03 );
-                });
-            }, false);
-
-
-            structuredComplexBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input03, function( err, json ){
-                    input03.value = js_beautify( JSON.stringify({
-                        "query": {
-                            "date": {
-                                "$gt": "2014",
-                                "$lt": "2016"
-                            },
-                            "sponsors": null
-                        }
-                    }));
-                    updateText( input03, jsonFileIndex, output03 );
-                });
-            }, false);
-
-
-
-
-              </script>
 </section>
 
 
@@ -599,84 +282,34 @@ var index = new Mani(options)</code></pre>
                     <li><span id="geo-complex">Complex</span></li>
                     </ul>
                 <textarea id="input04" class="edit-area">{
-    'nearby': {
-        'latitude': 52.516272,
-        'longitude': 13.377722,
+    "nearby": {
+        "longitude": "-0.14292",
+        "latitude": "50.82106"
     }
 } </textarea>
+
+
             </div>
             <div id="output04" class="flex-item edit-panel edit-html-result">&nbsp;</div>
         </div>
 
-              <script>
-            var input04 = document.getElementById('input04');
-            var output04 = document.getElementById('output04');
-            var geoNearbyBtn = document.getElementById('geo-nearby');
-            var geoOffsetBtn = document.getElementById('geo-offset');
-            var geoComplexBtn = document.getElementById('geo-complex');
-
-            document.addEventListener('index-built', function (evt) {
-                 updateText( input04, jsonFileIndex, output04 );
-            }, false);
-
-            input04.addEventListener('input', function (evt) {
-                updateText( input04, jsonFileIndex, output04 );
-            }, false);
-
-
-           geoNearbyBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input04, function( err, json ){
-                    input04.value = js_beautify( JSON.stringify({
-                        'nearby': {
-                            'latitude': 52.516272,
-                            'longitude': 13.377722,
-                        }
-                    }));
-                    updateText( input04, jsonFileIndex, output04 );
-                });
-            }, false);
-
-
-            geoOffsetBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input04, function( err, json ){
-                    input04.value = js_beautify( JSON.stringify({
-                        'nearby': {
-                            'latitude': 52.516272,
-                            'longitude': 13.377722,
-                            'offset': 1000
-                        }
-                    }));
-                    updateText( input04, jsonFileIndex, output04 );
-                });
-            }, false);
-
-
-            geoComplexBtn.addEventListener('click', function (evt) {
-                parseJsonFromElt( input04, function( err, json ){
-                    input04.value = js_beautify( JSON.stringify({
-                        'nearby': {
-                            'latitude': 52.516272,
-                            'longitude': 13.377722,
-                            'offset': 1000
-                        },
-                        'text': 'pub'
-                    }));
-                    updateText( input04, jsonFileIndex, output04 );
-                });
-            }, false);
-
-
-
-
-              </script>
 </section>
 
 
+      <section>
+
+
+           <img src="assets/images/diagram.png" alt="diagram of Mani design" style="width: 100%" />
+
+    </section>
+
 
 <section>
-        <h2>Serialize data and indexs to JSON</h2>
-        <pre><code class="language-javascript">// To JSON
-var index = new Mani(options);
+        <h2>Serialize data and indexes to JSON</h2>
+        <pre><code class="language-javascript">var index = new Mani(options);
+index.add( [...] );
+
+// To JSON
 var json = JSON.stringify( index.toJSON() );
 
 // From JSON
@@ -697,13 +330,13 @@ var persist = new Persist(index, {
 
       <section>
         <h2>Built on top of</h2>
-        <p>This project stand on the shoulders of others:</p>
+        <p>This project stands on the shoulders of others:</p>
 
-        <ul>
-        <li><a href="http://lunrjs.com/">lunrjs</a> - free text search<br></li>
-        <li><a href="https://github.com/louischatriot/nedb">nedb</a> - the query engine from nedb<br></li>
-        <li><a href="https://github.com/manuelbieh/Geolib">geolib</a> - nearby search</li>
-        <li><a href="https://github.com/mozilla/localForage">localForage</a> - data persistance<br></li>
+        <ul class="larger">
+        <li><strong><a class="hidestyle" href="http://lunrjs.com/">lunrjs</a></strong>  - free text search<br></li>
+        <li><strong><a class="hidestyle" href="https://github.com/louischatriot/nedb">nedb</a></strong>  - the query engine from nedb<br></li>
+        <li><strong><a class="hidestyle" href="https://github.com/manuelbieh/Geolib">geolib</a></strong>  - nearby search</li>
+        <li><strong><a class="hidestyle" href="https://github.com/mozilla/localForage">localForage</a></strong>  - data persistence<br></li>
         </ul>
 
       </section>
@@ -711,632 +344,61 @@ var persist = new Persist(index, {
 
 
       <section>
-        <h2>Whats still missing from Mani</br>for building offline expereience</h2>
-        <ul>
+        <h2>What's still missing from Mani?</h2>
+        <ul class="larger">
             <li>Sync</li>
             <li>Real-time updates</li>
+            <li>Baked in web worker support</li>
+            <li>Indexdb support</li>
+            <li>Promises</li>
         </ul>
       </section>
 
-<section>
+
+      <section>
+        <h2>Maybe there is no need to reinvent the wheel - consider using:</h2>
+        <ul >
+            <li><strong><a class="hidestyle" href="">idb</a></strong> - Promises wrap of indexdb</li>
+            <li><strong><a class="hidestyle" href="">Dixie.js</a></strong>  - Wrapper for indexdb</li>
+            <li><strong><a class="hidestyle" href="">Pouchdb</a></strong>  - Universal db with sync</li>
+            <li><strong><a class="hidestyle" href="">Hoodie</a></strong>  - Offline-first architecture for web apps</li>
+            <li><strong><a class="hidestyle" href="">Pusher</a></strong> - Realtime messaging (SaaS)</li>
+            <li><strong><a class="hidestyle" href="">Firebase</a></strong> - Realtime messaging and synced db (SaaS)</li>
+        </ul>
+      </section>
+
+
+
+      <section>
         <h1>What did I learn...</h1>
       </section>
 
-      <section>
-        <p>Mani is an expereiment and is <strong>NOT production code</strong></p>
-        <h2>The techniques and approaches used are practical for certain data/content profiles</h2>
-      </section>
-
 
       <section>
-        <h2>Consider using</h2>
-        <ul>
-            <li>idb - Promises wrap of indexdb</li>
-            <li>Dixe.js - Wrapper for indexdb</li>
-            <li>Pouchdb - Universal db with sync</li>
-            <li>Hoodie - </li>
-            <li>Pusher</li>
-            <li>Firebase</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>We need a new generation of client-side data store libraries, with the features and functionilty depth we can find on the server.</h2>
-      </section>
-
-<!--
-      <section>
-          <h2>Profile for shorlist data</h2>
-        <img src="assets/data-patterns-shortlists.png" alt="Graphical profile for shorlist data" style="height:75%"/>
-      </section>
-
-
-      <section>
-          <h2>Profile for jobs data</h2>
-        <img src="assets/data-patterns-jobs.png" alt="Graphical profile for jobs data" style="height:75%"/>
-      </section>
-
-
-
-
-
-
-
-
-
-      <section>
-        <p class="large-text">What extending the web offline is not about:</p>
-        <h2>Server and client side feature parity</h2>
-      </section>
-
-
-      <section>
-        <h3>What we would need to progressive enchance Guardian Jobs like this</h3>
-        <ul>
-            <li>Https</li>
-            <li>Manifest file</li>
-            <li>Service-worker for <del>app-shell</del> page funiture</li>
-            <li>Service-worker for offline page</li>
-            <li>Cache of 20 last job viewed `respones objects`</li>
-            <li>JSON URL for shortlist data which we can cache</li>
-       </ul>
-      </section>
-
-
-      <section>
-        <h2>&quot;Battle harden&quot;</h2>
-        <p class="large-text">Hapi was able to handle all of Walmart mobile Black Friday traffic with about
-        10 CPU cores and 28Gb RAM (of course we used more but they were sitting idle at
-        0.75% load most of the time)</p>
-        <p>Eran Hammer <a href="https://github.com/hapijs/hapi/issues/1326">#1326</a><p>
-     </section>
-
-
-
-      <section style="backgroud-color: #fff">
-        <img src="assets/company-logos.png" style="width:100%; height:100%"/>
-      </section>
-
-
-
-
-      <section>
-        <h2>Creating a HAPI server</h2>
-        <pre><code class="language-javascript">const Hapi = require('hapi');
-const server = new Hapi.Server();
-
-server.connection({ port: 3000 });
-server.start((err) => {
-
-    if (err) {
-        throw err;
-    }
-    console.log('Server running at:', server.info.uri);
-});
-</code></pre>
-      </section>
-
-
-      <section>
-        <h2>Adding a route</h2>
-        <pre><code class="language-javascript">server.route([{
-    method: 'GET',
-    path: '/',
-    handler: (request, reply) => {
-        reply('Hello, world!');
-    }
-}]);
-</code></pre>
-      </section>
-
-
-      <section>
-        <h2>Passing a path parameter</h2>
-        <pre><code class="language-javascript">server.route([{
-    method: 'GET',
-    path: '/{name}',
-    handler: (request, reply) => {
-        reply('Hello, ' + request.params.name + '!');
-    }
-}]);
-</code></pre>
-      </section>
-
-
-
-      <section>
-        <h2>Plugins</h2>
-        <p class="large-text"><strong>Plugins provide a way to organise your code into logical components and put them together in
-            different combinations.</strong> The <em>&quot;right way&quot;</em> to build a Hapi app is to create it with plugins.
-            </p>
-      </section>
-
-
-     <section>
-        <h2>Hapi plugins are powerful</h2>
-        <ul>
-            <li>Define and add routes to the server</li>
-            <li>Modify a request during its life cycle</li>
-            <li>Load in a set order by setting peer dependencies</li>
-            <li>Have thier own memory context</li>
-            <li>They can access other plugins</li>
-            <li>Inject methods into the main app</li>
-            <li>and more ... </li>
-       </ul>
+        <h2>An asymmetrical offline experience is a valid design outcome</h2>
+        <div class="flex-container">
+            <div class="flex-item"><img src="assets/images/maps01.png" alt="screenshot of the googles maps andriod app" style="width:60%" /></div>
+            <div class="flex-item"><img src="assets/images/maps02.png" alt="screenshot of the googles maps andriod app offline settings" style="width:60%" /></div>
+            </div>
+        </div>
     </section>
-
-
-                  <section>
-        <h2>Registering plugins</h2>
-        <pre><code class="language-javascript">const Inert = require('inert');
-server.register([Inert], () => {});
-        </code></pre>
-      </section>
-
-
-<section>
-        <h2>Registering plugins</h2>
-
-            <pre><code class="language-javascript">const Inert = require('inert');
-const Vision = require('vision');
-const SiteSettings = require('../plugins/site-settings');
-server.register([
-    Inert,
-    Vision,
-    SiteSettings] (err) => {
-        server.route(Routes);
-        server.start(() => {
-             console.log('Server running at:', server.info.uri);
-        });
-});
-</code></pre>
-      </section>
-
-
-            <section>
-        <h2><span class="plugin-name">Inert</span>: Static files and directories</h2>
-            <pre><code class="language-javascript">server.register([Inert], () => {});
-server.route([{
-    method: 'GET',
-    path: '/{path*}',
-    handler: {
-        directory: {
-            path: './public'
-        }
-    }
-}]);
-</code></pre>
-      </section>
-
-
-                  <section>
-        <h2><span class="plugin-name">Vision</span>: Templates</h2>
-            <pre><code class="language-javascript">server.register([Vision], () => {});
-server.views({
-    relativeTo: __dirname,
-    path: 'templates',
-    engines: { html: require('handlebars') },
-});
-
-server.route([{
-    method: 'GET',
-    path: '/',
-    handler: (request, reply) => {
-        reply.view('index.html', {'date': new Date()});
-    }
-}]);
-</code></pre>
-      </section>
-
-
-    <section>
-        <h2>Routes &dash; a rich set of features</h2>
-            <pre><code class="language-javascript">{
-    method: 'POST',
-    path: '/user',
-    config: {
-        handler: updateUser,
-
-        description: 'Add a new user',
-        tags: ['api', 'user'],
-        auth: 'bearertoken'
-        cors: true,
-        jsonp: 'callback'
-    }
-}
-</code></pre>
-      </section>
-
-
-      <section>
-        <h2><span class="plugin-name">Blipp</span>: Displays the routing table</h2>
-        <img src="assets/blipp.png" style="height:70%"/>
-      </section>
-
-      <section>
-        <h1>Configuration</br>to logic</h1>
-      </section>
-
-     <section>
-        <h2><span class="plugin-name">Glue</span>: Everything as configuration</h2>
-            <pre><code class="language-javascript">var manifest = {
-    server: {},
-    connections: [
-        {
-            host: 'localhost',
-            port: 3000,
-            labels: ['web']
-        }
-    ],
-    registrations: [
-        {plugin: 'inert'},
-        ...</code></pre>
-      </section>
-
-
-   <section>
-        <h2>Handlers &dash; interface to your business logic</h2>
-            <pre><code class="language-javascript">handler: (request, reply) => {
-    Users.getById(request.params.id, (err, json) => {
-
-        if (err !== null) {
-            reply(Boom.notFound('invalid request: ' + err));
-        } else {
-            reply(json).type('application/json').code(200)
-        }
-    });
-}
-</code></pre>
-      </section>
-
-
-      <section>
-        <h1>&quot;hapi and joi&quot;</h1><h2>Object schema validation</h2></h1>
-      </section>
-
-
-        <section>
-        <h2><span class="plugin-name">Joi</span>: Validating your inputs</h2>
-        <ul>
-      <li><strong>Validates</strong> - payload, query, params, headers and auth</li>
-      <li><strong>Types</strong> - object, array, string, number, boolean, date, binary and alternatives</li>
-      <li><strong>Sets of tests for each type</strong> -  require(), alphanum(), guid(), min(), max(), email() and unique() etc.</li>
-      <li><strong>Regex tests</strong> - . regex(/[a-zA-Z0-9]{3,30}/)</li>
-       <li><strong>Metadata</strong> - label, description and tags</li>
-       </ul>
-    </section>
-
-
-
-   <section>
-        <h2><span class="plugin-name">Joi</span>: Validating path parameters</h2>
-            <pre><code class="language-javascript">server.route({
-    method : 'GET',
-    path : '/path/{name}',
-    config : {
-    	handler: (request, reply) => {
-            reply('Hello, ' + request.params.name + '!');
-        },
-    	validate: {
-    	    params: {
-    	        name: Joi.string().required()
-    	    }
-    	}
-    }
-});</code></pre>
-      </section>
 
 
          <section>
-        <h2><span class="plugin-name">Joi</span>: Validating querystrings</h2>
-            <pre><code class="language-javascript">server.route({
-    method : 'GET',
-    path : '/users',
-    config : {
-    	handler: handler,
-    	validate: {
-    	    query: {
-                pagenum: Joi.number().min(1).default(1),
-    	        pagesize: Joi.number().min(1).max(100).default(20)
-    	    }
-    	}
-    }
-});</code></pre>
-      </section>
-
-
-   <section>
-        <h2><span class="plugin-name">Joi</span>: A schema for your data</h2>
-            <pre><code class="language-javascript">
-const sumSchema = Joi.object({
-    id: Joi.string().required().example('x78P9c'),
-    a: Joi.number().required().example(5),
-    b: Joi.number().required().example(5),
-    operator: Joi.string().required().valid(['+','-','/','*']).example('+'),
-    equals: Joi.number().required().example(10),
-    created: Joi.string().required().isoDate().description('ISO date').example('2015-12-01'),
-    modified: Joi.string().isoDate().description('ISO date').example('2015-12-01')
-}).label('Sum');</code></pre>
-      </section>
-
-   <section>
-        <h2><span class="plugin-name">Joi</span>: Common patterns of use</h2>
-            <pre><code class="language-javascript">const init = function (options, next) {
-
-    let settings = Hoek.applyToDefaults(defaults, options);
-    Joi.assert(settings, settingsSchema);
-    ...
-</code></pre>
+        <p>You can provide document search offline</p>
+        <h2>Within tight constraints you can provide free text, geo search and mix that with structured queries and facets.</h2>
       </section>
 
 
       <section>
-        <h1>Request lifecycle</h1><h2>The heart of Hapi</h2></h1>
-      </section>
-
-
-      <section>
-        <h2>Request lifecycle events</h2>
-        <dl>
-            <dt>onRequest</dt>
-            <dd>Process query extensions, Parse cookies</dd>
-
-            <dt>onPreAuth</dt>
-            <dd>Authenticate request, Read and parse payload, Authenticate payload</dd>
-
-            <dt>onPostAuth</dt>
-            <dd>Validate path parameters, Validate query, Validate payload</dd>
-
-            <dt>onPreHandler</dt>
-            <dd>Route pre-requisites, Route handler</dd>
-
-            <dt>onPostHandler</dt>
-            <dd>Validate response payload</dd>
-
-            <dt>onPreResponse</dt>
-            <dd>Send response</dd>
-        </dl>
-    </section>
-
-
-   <section>
-        <h2>onPostHandler</h2>
-            <pre><code class="language-javascript">server.ext('onPostHandler', (request, reply) => {
-
-    let response = request.response;
-    if (response.variety === 'view') {
-        if (!response.source.context) {
-            response.source.context = {};
-        }
-        response.source.context.query = request.query;
-    }
-    return reply.continue();
-});</code></pre>
-    </section>
-
-
-   <section>
-        <h2>server.method</h2>
-            <pre><code class="language-javascript">const add = function (x, y, next) {
-    next(null, x + y);
-};
-server.method('add', add, {});
-</code></pre>
-
-<p>The third parameter is options, mostly used for caching</p>
-
-    </section>
-
-
-       <section>
-        <h2>server.decorate</h2>
-            <pre><code class="language-javascript">const success = function () {
-    return this.response({ status: 'ok' });
-};
-server.decorate('reply', 'success', success);</code></pre>
-    </section>
-
-
-       <section>
-        <h2>server.bind</h2>
-            <pre><code class="language-javascript">server.bind({
-    service: new Service({
-        url: 'http://example.com/api',
-        accesstoken: 'gh45-is76-nb10-fy49',
-    })
-});</code></pre>
-
-    </section>
-
-
-      <section>
-        <h1>Toolbox</h1><h2>Features and plugins that power production ready Hapi apps</h2></h1>
-      </section>
-
-
-
-
-      <section>
-        <h2><span class="plugin-name">Catbox</span>: Caching server-side</h2>
-        <ul>
-            <li>Built-in by default</li>
-            <li>Design around the concept of strategies</li>
-            <li>Catbox: Redis, MongoDB, Memcached, Riak, Amazon S3, RethinkDB, Couchbase, Aerospike and LevelDB</li>
-            <li>expiresIn: 20 * 60 * 1000</li>
-            <li>expiresAt: 14:56</li>
-            <li>staleIn - auto refresh of a cached value</li>
-            <li>Request timeouts that fallback to cache</li>
-        </ul>
+        <p>Mani is an experiment and is NOT production code</p>
+        <h2>The techniques and approaches used in Mani are practical for certain data/content profiles</h2>
       </section>
 
       <section>
-        <h2>Authentication</h2>
-            <pre><code class="language-javascript">const Basic = require('hapi-auth-basic');
-server.auth.strategy('simple', 'basic', { validateFunc: validate });
-
-var validate = function (username, password, callback) {
-   Users.getByCred(username, password, (err, json) => {
-        // err, isValid, credentials
-        callback(err, (!err), json);
-   });
-};
-
-config: {
-    auth: 'simple',
-    handler: function (request, reply) {
-        reply('hello, ' + request.auth.credentials.name);
-    }
-}</code></pre>
+        <h2>We need a new generation of client-side data store libraries, with the features and functional depth we can find on the server.</h2>
       </section>
 
-
-
-      <section>
-        <h2><span class="plugin-name">Bell</span>: Authentication</h2>
-        <p>Third-party authentication plugin for Facebook, GitHub, Google, Instagram, LinkedIn,
-            Twitter, Yahoo, Foursquare, VK, ArcGIS Online, Windows Live, Nest, Phabricator,
-            BitBucket, Dropbox, Reddit, Tumblr and Twitch</p>
-            <pre><code class="language-javascript"> server.auth.strategy('twitter', 'bell', {
-    provider: 'twitter',
-    password: 'cookie_encryption_password_secure',
-    clientId: 'my_twitter_client_id',
-    clientSecret: 'my_twitter_client_secret',
-    isSecure: false   // Terrible idea but required for developing locally
-});
-</code></pre>
-      </section>
-
-
-      <section>
-        <h2><span class="plugin-name">h2o2</span>: Proxy other API's</h2>
-   <pre><code class="language-javascript">path: '/rest/v1/alpha/{code}',
-    config: {
-        validate: {
-            params: {
-                code: Joi.string().length(2).required()
-            }
-        },
-        handler: {
-            proxy: {
-                host: 'restcountries.eu',
-                protocol: 'https',
-                passThrough: true,
-                xforward: true,
-                onResponse: replyWithJSON
-            </code></pre>
-      </section>
-
-
-      <section>
-        <h2><span class="plugin-name">Good</span>: Process monitoring/logging</h2>
-        <ul>
-          <li><strong>Ops</strong> - Process performance - CPU, memory, disk, and others.</li>
-          <li><strong>Request</strong> - Request logging information</li>
-          <li><strong>Error</strong> - Request responses that have a status code of 500</li>
-        </ul>
-        <p>Reporters for console, file, HTTP, UDP, winston or logstash</p>
-
-      </section>
-
-
-      <section>
-        <h2>server.inject</h2>
-        <pre><code class="language-javascript">server.inject({ method: 'GET', url: '/users/glennjones' }, function (response) {
-     ...do something
-});
-      </code></pre>
-      </section>
-
-
-      <section>
-        <h2><span class="plugin-name">Bassmaster</span>: Batching</h2>
-
-        <ul>
-          <li>Batches endpoints making it easy to combine requests </li>
-          <li>Supports pipelining the result of one endpoint into others within the batch</li>
-        </ul>
-
-   <pre><code class="language-javascript">{ "requests": [
-    {"method": "get", "path": "/places/the-open-house"},
-    {"method": "get", "path": "/users/$0.author"}
-] }</code></pre>
-      </section>
-
-
-
-      <section>
-        <h2><span class="plugin-name">Lab</span> & <span class="plugin-name">Code</span>: Testing</h2>
-        <ul>
-          <li>Lab works with any assertion library that throws an error</li>
-          <li>eslint to Hapi styleguides</li>
-          <li>Coverage reports</li>
-          <li>Global variable leaks detection</li>
-          <li>Works with CI like travis</li>
-        </ul>
-      </section>
-
-
-      <section>
-        <h2><span class="plugin-name">Lab</span>: Coverage report</h2>
-        <img src="assets/coverage.png" style="height:80%"/>
-      </section>
-
-
-
-      <section>
-        <h2><span class="plugin-name">hapi-swagger</span>: Documentation</h2>
-        <img src="assets/swagger1.png" style="height:80%;" />
-      </section>
-
-      <section>
-        <h2><span class="plugin-name">hapi-swagger</span>: Documentation</h2>
-        <img src="assets/swagger2.png" style="height:80%;" />
-      </section>
-
-    <section>
-      <h2><span class="plugin-name">hapi-waypointer</span>: Not production</h2>
-      <ul>
-        <li>Documents Restful APIs </li>
-        <li>Builds on top of swagger.json format</li>
-        <li>Provides code examples/snippets</li>
-        <li>Builds example JSON output for each endpoint</li>
-        <li>Allows authors to inject text in githubs markdown format</li>
-        <li>Themes built with handlebars</li>
-        <li>Can be single page or multi page depending on the theme design</li>
-        <li>Any frontend dev should be able to modify or create a theme</li>
-      </ul>
-    </section>
-
-
-
-      <section>
-        <h2><span class="plugin-name">hapi-waypointer</span>: Hub theme</h2>
-        <img src="assets/waypointer1.png" style="height:80%;" />
-      </section>
-
-      <section>
-        <h2><span class="plugin-name">hapi-waypointer</span>: Form theme</h2>
-        <img src="assets/waypointer2.png" style="height:80%;" />
-      </section>
-
-      <section>
-        <h2><span class="plugin-name">hapi-waypointer</span>: Plain theme</h2>
-        <img src="assets/waypointer3.png" style="height:80%;" />
-      </section>
-
-
-      <section>
-      <h2>Resources:</h2>
-      <ul>
-        <li>Full Documentation - http://hapijs.com/api</li>
-        <li>Tutorials - http://hapijs.com/tutorials</li>
-        <li>Plugins - http://hapijs.com/plugins</li>
-        <li>Slides - https://github.com/glennjones/time-to-be-hapi</li>
-        <li>Example apps - https://github.com/glennjones/time-to-be-hapi</li>
-      </ul>
-    </section>
-
-    -->
 
 
         <section>
@@ -1345,7 +407,7 @@ config: {
 
 
         <section>
-            <h2>Presented to Async.js on the 23 June 2016 in Brighton. The content and code are open sourced under MIT licence.</br>Glenn Jones.</h2>
+            <h2>Presented to Async.js on 23 June 2016 in Brighton. The content and code are open sourced under MIT licence.</br>Glenn Jones.</h2>
         </section>
 
 

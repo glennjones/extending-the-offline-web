@@ -9,7 +9,7 @@ const Striptags = require('Striptags');
 const Entities = require('html-entities').AllHtmlEntities;
 const Fs = require('fs');
 
-const Routes = require('./routes');
+const Routes = require('./lib/routes');
 const entities = new Entities();
 
 
@@ -65,6 +65,40 @@ let options =  {
 }
 
 
+/*
+let out = [];
+Places.items.forEach( (place) => {
+    let item = {
+        name: place.properties.name[0],
+        longitude: place.properties.longitude[0],
+        latitude: place.properties.latitude[0],
+        geofence: place.properties['x-geofence'][0],
+        tags: place.properties.category,
+        updated: place.properties.updated[0]
+    }
+
+    if(place.properties['street-address']){
+            item['street-address'] = place.properties['street-address'][0];
+    }
+    if(place.properties['locality']){
+            item['locality'] = place.properties['locality'][0];
+    }
+    if(place.properties['country-name']){
+            item['country-name'] = place.properties['country-name'][0];
+    }
+    if(place.properties['postal-code']){
+            item['postal-code'] = place.properties['postal-code'][0];
+    }
+
+     out.push(item)
+});
+
+console.log(JSON.stringify(out));
+*/
+
+
+
+/*
 Fs.readdir('../data/assets', (err, files) =>{
 
     let out = [];
@@ -100,6 +134,7 @@ Fs.readdir('../data/assets', (err, files) =>{
     }
     console.log(JSON.stringify(out));
 });
+*/
 
 
 function cleanText( text ){
