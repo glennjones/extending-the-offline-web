@@ -3,7 +3,9 @@
 
 (function (){
 
-    self.importScripts('elasticlunr.js');
+    self.importScripts('elasticlunr.js','../getListings.js');
+
+    var docs = [];
 
     var asyncjsIndex = elasticlunr(function () {
         this.addField('title', {boost: 30});
@@ -17,6 +19,7 @@
         //console.log(JSON.stringify(event.data));
 
         if(event.data.messageType === 'add'){
+            docs = event.data.documents;
             event.data.documents.forEach(function(item){
                 asyncjsIndex.addDoc(item);
             })
@@ -24,7 +27,7 @@
         }
 
         if(event.data.messageType === 'search'){
-            results = asyncjsIndex.search(event.data.query);
+            results = results = getItemsFromResults( asyncjsIndex.search(event.data.query, {}), docs);
             self.postMessage({'messageType': 'results', 'documents': results });
         }
 

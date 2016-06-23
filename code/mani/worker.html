@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>lunr example</title>
-    <script src="/assets/javascript/fetch.js"></script>
+    <title>Mani example</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="all" href="../code.css" type="text/css">
+
+    <script src="../fetch.js"></script>
     <script>
 
         var worker = new Worker('worker.js');
 
         worker.onmessage = function(event) {
-            console.log(JSON.stringify(event.data));
+            //console.log(JSON.stringify(event.data));
             if(event.data.messageType === 'ready'){
                 worker.postMessage({ 'messageType': 'search', 'query': {'text': 'css'} });
+            }
+            if(event.data.messageType === 'results'){
+                var liArr = event.data.documents.map( function(item){
+                    return '<li><strong>' + item.title + '</strong></br><span class="score">' + item.score + '<span></li>'
+                })
+                document.getElementById('container').innerHTML = '<ol>' + liArr.join('') + '</ol>';
             }
         };
 
@@ -44,7 +53,8 @@
     </script>
   </head>
   <body>
-    <div class="container">
+      <h1>Mani in web worker</h1>
+    <div id="container">
 
     </div>
   </body>

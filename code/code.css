@@ -1,0 +1,53 @@
+  body {
+      font-size: 1.00000em;
+      line-height: 1.62500em;
+      font-family: 'Open Sans', sans-serif;
+      padding: 2em;
+  }
+  article, .page-created {
+      margin: auto;
+  }
+  h1 {
+      font-size: 2.87500em;
+      line-height: 1.13043em;
+      margin-top: 0.5652em;
+      margin-bottom: 1.1304em;
+      font-weight: normal;
+  }
+  h2 {
+      font-size: 1.68750em;
+      line-height: 1.13043em;
+      margin-top: 1.9259em;
+      margin-bottom: 0.963em;
+  }
+  h3 {
+      font-size: 1.31250em;
+      line-height: 1.23810em;
+      margin-top: 1.2381em;
+      margin-bottom: 0em;
+  }
+  p, ul {
+      margin-top: 0em;
+      margin-bottom: 1.625em;
+  }
+  small, aside {
+      font-size: 0.75000em;
+  }
+
+  code{
+    font-size: 1.31250em;
+    font-weight: bold;
+  }
+
+  pre code{
+    font-size: 1.1em;
+    font-weight: normal;
+  }
+
+  li{
+      margin-bottom: 0.8em;
+  }
+
+  .score{
+      color: #aaa;
+  }

@@ -2,22 +2,28 @@
 <html>
   <head>
     <title>lunr example</title>
-    <script src="/assets/javascript/fetch.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="all" href="../code.css" type="text/css">
+
+    <script src="../fetch.js"></script>
     <script>
 
         var worker = new Worker('worker.js');
 
         worker.onmessage = function(event) {
-            console.log(JSON.stringify(event.data));
+            //console.log(JSON.stringify(event.data));
             if(event.data.messageType === 'ready'){
                 worker.postMessage({ 'messageType': 'search', 'query': 'css' });
             }
             if(event.data.messageType === 'results'){
-                document.getElementById('container').innerHTML = JSON.stringify(event.data)
+                var liArr = event.data.documents.map( function(item){
+                    return '<li><strong>' + item.title + '</strong></br><span class="score">' + item.score + '<span></li>'
+                })
+                document.getElementById('container').innerHTML = '<ol>' + liArr.join('') + '</ol>';
             }
         };
 
-        //worker.postMessage({ 'x': 'y' });
 
         document.addEventListener("DOMContentLoaded", function (event) {
             // fetch and load data for asyncjs index
@@ -47,6 +53,7 @@
     </script>
   </head>
   <body>
+      <h1>Lunr.js in web worker</h1>
     <div id="container">
 
     </div>

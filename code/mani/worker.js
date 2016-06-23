@@ -25,24 +25,20 @@
         }
 
         if(event.data.messageType === 'search'){
-            results = asyncjsIndex.search(event.data.query);
+            results = getReducedData( asyncjsIndex.search(event.data.query).items );
             self.postMessage({'messageType': 'results', 'documents': results });
         }
 
-        /*
-        var index = lunr(function (){
-            this.field('Name');
-            this.field('Code');
-            this.field('Instructions_Includes');
-            this.field('Instructions_Excludes');
-            this.field('Instructions_Notes');
-            this.field('Instructions_Terminology');
-            this.field('Instructions_Morbidity');
-            this.ref('Id');
-        });
-        _.each(e.data, function (document) { index.add(document); });
-        self.postMessage(JSON.stringify(index.toJSON()));
-        */
         }, false);
+
+
+    function getReducedData( results ){
+        return results.map(function(item){
+            return {
+                title: item.title,
+                score: item.score
+            }
+        })
+    }
 
 }());

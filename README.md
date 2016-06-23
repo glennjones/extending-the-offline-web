@@ -1,10 +1,10 @@
 # Extending the offline web - asyncjs talk
 
 This repo contains material created for a talk
-given at [async.js](http://www.meetup.com/London-JavaScript-Community/events/228773686/) on Thursday 23 June 2016 called "Extending the offline web".
+given at [async.js](http://www.meetup.com/London-JavaScript-Community/events/228773686/) on Thursday 23 June 2016.
 
 
-### Install node app to run silde deck
+### Install node app to run slide deck
 * Install node.js
 * Clone or download this repo to your local machine
 * In a command line move to the projects parent directory
@@ -56,8 +56,9 @@ given at [async.js](http://www.meetup.com/London-JavaScript-Community/events/228
 * [The Service Worker Cookbook](https://serviceworke.rs/) -  Mozilla's collection of working, practical examples of using service workers
 * [Offline cookbook](https://jakearchibald.com/2014/offline-cookbook/) - Jake Archibald list of examples
 * [Is service worker ready](https://jakearchibald.github.io/isserviceworkerready/) - Browser compatibility
+* [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) - MDN API reference
+* [Chrome dev](https://developers.google.com/web/tools/service-worker-libraries/?hl=en)
 * [Introducing Pokedex.org](http://www.pocketjavascript.com/blog/2015/11/23/introducing-pokedex-org) - Blog post Nolan Lawson on how he built Pokedex webapp
-* [Progressive Web Apps in Firefox](https://blog.wanderview.com/slides-pwa-summit-2016) - Ben Kelly
 * [Progressive Web App Summit 2016](https://www.youtube.com/playlist?list=PLNYkxOF6rcIAWWNR_Q6eLPhsyx6VvYjVb) - playlist on youtube
 * [Web and Chrome at Google I/O 2016](https://www.youtube.com/playlist?list=PLNYkxOF6rcIDz1TzmmMRBC-kd8zPRTQIP) - playlist on youtube
 
@@ -67,6 +68,7 @@ given at [async.js](http://www.meetup.com/London-JavaScript-Community/events/228
 * [upup](https://www.talater.com/upup/) - simple library offline.html page to your site
 * [Lighthouse](https://github.com/GoogleChrome/lighthouse) - Chrome, tools forauditing and performance metrics for Progressive Web Apps
 * [sw-precache](https://github.com/GoogleChrome/sw-precache) - Chrome, a module for generating a service worker that precaches resources
+* [sw-toolbox](https://github.com/GoogleChrome/sw-toolbox) - Chrome, a library provides common caching patterns
 * [sw-helpers](https://github.com/GoogleChrome/sw-helpers) - Chrome, a collection of libraries that help enhance your existing service worker
 * [Lunr.js](http://lunrjs.com/) - offline free text search
 * [Nedb](https://github.com/louischatriot/nedb) - the query engine from nedb<br></li>
