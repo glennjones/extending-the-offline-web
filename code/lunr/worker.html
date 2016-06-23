@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lunr example</title>
+    <script src="/assets/javascript/fetch.js"></script>
+    <script>
+
+        var worker = new Worker('worker.js');
+
+        worker.onmessage = function(event) {
+            console.log(JSON.stringify(event.data));
+            if(event.data.messageType === 'ready'){
+                worker.postMessage({ 'messageType': 'search', 'query': 'css' });
+            }
+            if(event.data.messageType === 'results'){
+                document.getElementById('container').innerHTML = JSON.stringify(event.data)
+            }
+        };
+
+        //worker.postMessage({ 'x': 'y' });
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+            // fetch and load data for asyncjs index
+            fetch('/data/asyncjs-events.json')
+                .then(function (response) {
+                    return response.json()
+                }).then(function (json) {
+                    json = json.filter(function (item) {
+                        return (item.title !== null && item.category === "event")
+                    });
+                    var count = 0;
+                    json.forEach(function(item){
+                        item.id = count;
+                        count ++;
+                    })
+
+                    worker.postMessage({ 'messageType': 'add', 'documents': json });
+
+
+                }).catch(function (err) {
+                    console.log('parsing failed', err)
+                })
+        });
+
+
+
+    </script>
+  </head>
+  <body>
+    <div id="container">
+
+    </div>
+  </body>
+</html>
