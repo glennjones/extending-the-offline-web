@@ -10,7 +10,8 @@ given at [async.js](http://www.meetup.com/London-JavaScript-Community/events/228
 * In a command line move to the projects parent directory
 * `$ npm install`
 * `$ node app`
-* The slide website can then be accessed from http://localhost:3030/
+* The slide website can then be accessed from http://localhost:3030/slides/
+* The web worker code examples from http://localhost:3030/code/
 
 
 # Reading and watching list
